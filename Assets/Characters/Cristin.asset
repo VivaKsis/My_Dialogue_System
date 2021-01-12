@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867b67b134db6b54181037f909738269, type: 3}
+  m_Name: Cristin
+  m_EditorClassIdentifier: 
+  _speakerName: Cristin
+  _speakerSprites:
+  - {fileID: 21300000, guid: 5da51fcce4afc29438e5763fd370092c, type: 3}
+  - {fileID: 21300000, guid: 926cb7f36e103b4498a8cad54d493b88, type: 3}
+  - {fileID: 21300000, guid: 32cb42503c6cca74bb48fb3528e881d4, type: 3}
+  _nodeColorInGraph: {r: 0, g: 0.24528301, b: 0.07427221, a: 0}

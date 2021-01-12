@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e0f7c2382e020489edddfdf863b7af, type: 3}
+  m_Name: EventBoard
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -5722877243910945158, guid: fdd9f2134467d74428827a02a26fd8a3, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: events
+      Entry: 7
+      Data: 0|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.EventSystem.EventBoard+Event,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.EventSystem.EventBoard+Event,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: e1a8c7f0628448eb84c0402658eed982
+    - Name: 
+      Entry: 7
+      Data: 1|FlowReactor.EventSystem.EventBoard+Event, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: TestEvent
+    - Name: foldout
+      Entry: 5
+      Data: true
+    - Name: connectedNodeFoldout
+      Entry: 5
+      Data: false
+    - Name: eventComponentListeners
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[FlowReactor.EventSystem.FlowReactorEventListener,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parameters
+      Entry: 7
+      Data: 3|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: e79ea45020ed40a290c59ec3acc17c49
+    - Name: 
+      Entry: 7
+      Data: 4|FlowReactor.FRString, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 6
+      Data: 
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: variableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: MyFRString
+    - Name: typeName
+      Entry: 1
+      Data: String
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: Value
+      Entry: 1
+      Data: 
+    - Name: _string
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: 16ffc880ffde462ebe4cf49ce3d48c38
+    - Name: 
+      Entry: 7
+      Data: 5|FlowReactor.FRFloat, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 6
+      Data: 
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 6
+      Data: 
+    - Name: exposedName
+      Entry: 6
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: variableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: MyFRFloat
+    - Name: typeName
+      Entry: 1
+      Data: Float
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: connectedNodes
+      Entry: 6
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: _float
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: callEventNodes
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: listenerEventNodes
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

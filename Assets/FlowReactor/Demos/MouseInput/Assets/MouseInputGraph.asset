@@ -1,0 +1,657 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8377281165564977455
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b3c7c729b5a11459b508cf8e537844, type: 3}
+  m_Name: Group
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 5
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -8377281165564977455}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes: []
+  guid: 9817140e-0a26-4a7d-9540-1df334671ab2
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 948.71436
+    y: 52
+    width: 553
+    height: 216.5
+  title: Right
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0.0990566, g: 0.62407136, b: 1, a: 1}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 1
+  nodeData:
+    name: Group
+    category: Internal
+    description: Group
+    color: actionNodeColor
+    outputSlotCount: 0
+    nodeType: 2
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 0
+  ok: 0
+  groupTitle: Right
+  outputStateNodes: []
+  inputStateNodes: []
+  nodeChilds:
+  - node: {fileID: 8705542586716670703}
+    relativePos: {x: 310, y: 71}
+  - node: {fileID: 6410176758102604174}
+    relativePos: {x: 72.99994, y: 71}
+--- !u!114 &-2807056255866481377
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55c2dba9b41b6544b4b403425a64e2b, type: 3}
+  m_Name: AddForce
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 0
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -2807056255866481377}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 9c85fa968d8456f47904c44b5c8e10c6, type: 3}
+  inputNodes:
+  - id: 
+    guid: 6b9a3a11-109c-4477-a047-c93371287b3e
+    inputNode: {fileID: 5067854832304816590}
+  outputNodes:
+  - id: 
+    guid: 0e46a60c-138d-4cb9-b834-6e1c46015376
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: e65b5c59-b7f9-4b68-802f-c24938dea2de
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 679.7143
+    y: 125
+    width: 150
+    height: 60
+  title: AddForce
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: AddForce
+    category: Unity/Physics
+    description: Adds a force to a game object with rigidbody.
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 42280.96954740298
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: 8a3689ef2f6d2c94a99598358511f5cf,
+      type: 2}
+    blackboardGuid: 5414d5b2-157d-4867-bff6-6a9d03932c0b
+    variableGuid: 5680cb60-6e23-4da2-be69-4505dffe1049
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  directionForce:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _vector3: {x: -3, y: 4, z: 0}
+  forceMode: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb3a9483b762924a80685f081d09d58, type: 3}
+  m_Name: MouseInputGraph
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 8a3689ef2f6d2c94a99598358511f5cf, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: flowReactorComponents
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: blackboards
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[FlowReactor.Graph+Blackboards,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.GenericEqualityComparer`1[[System.Guid,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 2
+      Data: 5414d5b2157d4867bff66a9d03932c0b
+    - Name: $v
+      Entry: 7
+      Data: 4|FlowReactor.Graph+Blackboards, Assembly-CSharp
+    - Name: blackboard
+      Entry: 10
+      Data: 0
+    - Name: foldout
+      Entry: 5
+      Data: true
+    - Name: blackboardEditor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: eventboards
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[FlowReactor.Graph+Eventboards,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectedNodes
+      Entry: 7
+      Data: 6|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isActive: 1
+  isRoot: 1
+  isCopy: 0
+  rootGraph: {fileID: 11400000}
+  subGraphNode: {fileID: 0}
+  subGraphNodeInstance: {fileID: 0}
+  nodes:
+  - {fileID: -2807056255866481377}
+  - {fileID: 5067854832304816590}
+  - {fileID: 8705542586716670703}
+  - {fileID: 6410176758102604174}
+  - {fileID: 5654701574551694648}
+  - {fileID: -8377281165564977455}
+  tmpNodes: []
+  subGraphs: []
+  zoomCoordsOrigin: {x: 1, y: -0}
+  zoomFactor: 1
+  inspectorWidth: 400
+  tmpInspectorWidth: 0
+  showInspector: 0
+  isMouseOverNode: 0
+  mouseDownOnInspector: 0
+  selectedNode: {fileID: 6410176758102604174}
+  currentNode: {fileID: 0}
+  selectedNodeIndex: 3
+  lastSelectedNodeIndex: -1
+  drawModeOn: 0
+  selectionBoxDragging: 0
+  isNodeDragging: 0
+  highlightHandleIndex: 0
+  minimapSize: {x: 317, y: 215}
+  showMinimap: 1
+  dragMinimap: 0
+  resizeMinimap: 0
+  minimapMinSize: {x: 170, y: 100}
+  foldout: 0
+  globalMouseEvents: 1
+  globalMouseButton: 2
+  nodeSelectionPanelOpen: 0
+  dragNodeFromNodeMenu: 0
+  lastSelectedOutput: 0
+  nodeConnectPoint: {x: 640, y: 307}
+  mouseClickInGroupNode: 0
+  parentLevels:
+  - name: MouseInputGraph
+    graph: {fileID: 11400000}
+  currentGraph: {fileID: 11400000}
+--- !u!114 &5067854832304816590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a27f4e3eb00cc674a9026ef484572aeb, type: 3}
+  m_Name: OnMouseInput
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 1
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 5067854832304816590}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes:
+  - id: left down
+    guid: e65b5c59-b7f9-4b68-802f-c24938dea2de
+    subGraphExitguid: 
+    outputNode: {fileID: -2807056255866481377}
+    endlessLoop: 0
+  guid: 6b9a3a11-109c-4477-a047-c93371287b3e
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 452.7143
+    y: 126
+    width: 150
+    height: 60
+  title: OnMouseInput
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: OnMouseInput
+    category: Unity/Input/Events
+    description: Listen to mouse input
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 42280.96954720298
+  selectedMouseButton: 0
+  selectedButtonState: 1
+--- !u!114 &5654701574551694648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b3c7c729b5a11459b508cf8e537844, type: 3}
+  m_Name: Group
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 4
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 5654701574551694648}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes: []
+  guid: 57286a1c-0a2d-4479-bdf3-5241c7119173
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 376.7143
+    y: 56
+    width: 506.5
+    height: 205.5
+  title: Left
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 1, b: 0.28607988, a: 1}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 1
+  nodeData:
+    name: Group
+    category: Internal
+    description: Group
+    color: actionNodeColor
+    outputSlotCount: 0
+    nodeType: 2
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 0
+  ok: 0
+  groupTitle: Left
+  outputStateNodes: []
+  inputStateNodes: []
+  nodeChilds:
+  - node: {fileID: -2807056255866481377}
+    relativePos: {x: 303, y: 69}
+  - node: {fileID: 5067854832304816590}
+    relativePos: {x: 75, y: 70}
+--- !u!114 &6410176758102604174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a27f4e3eb00cc674a9026ef484572aeb, type: 3}
+  m_Name: OnMouseInput
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 3
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 6410176758102604174}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes:
+  - id: right down
+    guid: b07310a9-e8d3-4af7-9ba7-9e1b2fc6dfda
+    subGraphExitguid: 
+    outputNode: {fileID: 8705542586716670703}
+    endlessLoop: 0
+  guid: 9177388e-0c9f-4e6d-b5d0-473c052315c2
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 1021.71436
+    y: 123
+    width: 150
+    height: 60
+  title: OnMouseInput
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: OnMouseInput
+    category: Unity/Input/Events
+    description: Listen to mouse input
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 42275.18868480298
+  selectedMouseButton: 1
+  selectedButtonState: 1
+--- !u!114 &8705542586716670703
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55c2dba9b41b6544b4b403425a64e2b, type: 3}
+  m_Name: AddForce
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 2
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 8705542586716670703}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 9c85fa968d8456f47904c44b5c8e10c6, type: 3}
+  inputNodes:
+  - id: 
+    guid: 9177388e-0c9f-4e6d-b5d0-473c052315c2
+    inputNode: {fileID: 6410176758102604174}
+  outputNodes:
+  - id: 
+    guid: e65b5c59-b7f9-4b68-802f-c24938dea2de
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 1
+  guid: b07310a9-e8d3-4af7-9ba7-9e1b2fc6dfda
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 1258.7144
+    y: 123
+    width: 150
+    height: 60
+  title: AddForce
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: AddForce
+    category: Unity/Physics
+    description: Adds a force to a game object with rigidbody.
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 42275.188684902976
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: 8a3689ef2f6d2c94a99598358511f5cf,
+      type: 2}
+    blackboardGuid: 5414d5b2-157d-4867-bff6-6a9d03932c0b
+    variableGuid: 5680cb60-6e23-4da2-be69-4505dffe1049
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  directionForce:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _vector3: {x: 3, y: 4, z: 0}
+  forceMode: 1

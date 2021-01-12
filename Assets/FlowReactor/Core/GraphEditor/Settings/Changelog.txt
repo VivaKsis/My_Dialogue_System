@@ -1,0 +1,176 @@
+version 1.2.0p3
+---------------
+- Bugfix: Fixed bug when creating new blackboard variable from "connect to blackboard" popup window, variable won't get serialized.
+- Bugfix: Graph windows now opens as new tabs inside of a single window.
+- Bugfix: Fixed Unity editor getting slow when object with a FlowReactorComponent + exposed variables is selected when in play mode.
+
+version 1.2.0p2
+---------------
+- Bugfix: Fixed slow compilation times in large projects due to GetFiles method in EditorHelpers.cs. Fixed also slow graph editor opening.
+
+version 1.2.0p1
+---------------
+- API: Added possibility to enable blackboard variable overrides at runtime: EnableOverrideForVariable(string _blackboardName, string _variableName);
+- Bugfix: Fixed node variable popup not showing up when selecting "connect to blackboard" in Unity 2020
+
+version 1.2.0
+--------------
+- NEW: Exposable node variables. Added possibility to expose node variables of type FRVariable to FlowReactorComponent for direct scene access without using blackboards.
+- NEW: Blackboard variables can now be drag and dropped on to node variable fields
+- NEW: Added NodeUtilityModules for implementing additional features like FRNodeControllable and FRNodeEventDispatcher.
+- NEW: Added INodeControllable interface. Control Monobehaviour scripts from nodes. (FRNodeControllable module)
+- NEW: Added FlowReactorNodeControllable example script which can be assigned to node controlled objects in FlowReactorComponent.
+- NEW: Added FRNodeEventDispatcher, simply raise FlowReactor events from your custom nodes.
+- NEW: Added new generic enum type (FREnum). See API documentation for usage.
+- NEW: Added clickable graph navigation to large labels on canvas
+- NEW: Added possibility to create a new blackboard variable and link it to a node variable from the variable link popup menu
+- NEW: Added stackable inspectors for displaying different inspectors at the same time.
+- NEW: Added colored bar to inspectors for better differentiation
+- NEW: Added possibility to change node title. Existing nodes must be updated: In DrawGUI add: base.DrawGUI(nodeData.title, _id, _graph, _editorSkin);
+- NEW: Node title and description ui elements are inside a foldout to gain space.
+- NEW: Blackboard variables which are connected to selected node are being highlighted.
+- NEW: New favorite list for nodes. Favor nodes for faster access.
+- NEW: API: Added OnNodeDisable to node class. OnNodeDisable is called by the FlowReactorComponent OnDisable
+- NEW: API: Added GetExposableVariable to FlowReactorComponent.
+- NEW: API: Added [SceneObjectOnly] variable attribute to mark node FRVariables to allow only scene objects (no prefabs).
+- NEW: Added graph updater which updates graphs accordingly to version changes
+- NEW: Added new API demo scene for node modules explanation
+- NEW: Added assembly definition support. See documentation for correct implementation.
+- NEW: Added MoveTo coroutine node.
+- NEW: Added StopAllCoroutines node. Stops all running coroutine nodes in a graph.
+
+- Changed: Improved group behaviour. New nodes added to existing group needs to be specifically added to a group with context menu.
+- Changed: Changed FRVariables to support direct exposing. Please change your custom FRVariable types accordingly to make sure they work when exposed.
+- Changed: Renamed methods GetValue and SetValue in FlowReactorComponent to: GetOverrideVariable and SetOverrideVariable
+- Changed: Added possibility to compare collider with tag on OnTrigger and OnCollision nodes
+
+- Bugfix: Fixed rare bug where blackboard scene overrides would loose values (serialization issue)
+- Bugfix: Nodes are now assigned to one group only and can't be moved by other intersecting groups.
+- Bugfix: Fixed bug: If mousepointer crosses an output of any node while resizing a group it will stop resizing and start to draw new connection
+- Bugfix: Fixed splines looping strangely when nodes are too close
+- Bugfix: Fixed OnIntChanged wrong variable type
+- Bugfix: Fixed On Int/Float/Bool Changed not unsubscribing from OnValueChanged
+- Bugfix: Fixed issue not being able to drag prefabs to blackboard gameobject variables when in graph
+- Bugfix: Fixed issue when copy/paste nodes with variables connected to blackboards, new copied node variables won't get added to the blackboard connected nodes list.
+- Bugfix: Fixed issue when coroutine node gets executed again before coroutine has finished. (Stop coroutine before executing new)
+- Bugfix: Fixed issue when dragging new connection from node output too fast, nodepanel window would not stay open.
+
+
+!!!!!!!! Breaking changes !!!!!!!!
+1) 
+Due to the newly introduced FRVariable exposing feature you will probably have to update your custom FRVariable types.
+This should be fairly easy to do. Simply have a look at an existing FRVariable type like the FRString.
+2)
+If you have custom nodes please change following line in the DrawGUI method from:
+base.DrawGUI("MyNode", _id, _graph, _editorSkin);
+to:
+base.DrawGUI(nodeData.title, _id, _graph, _editorSkin);
+
+
+version 1.1.1p1
+---------------
+- Important hotfix: Blackboard override scene variables not working when using more than one blackboard in one graph.
+
+version 1.1.1
+-------------
+- NEW: Added new powerful flow node which can run flows in different modes: sequential, parallel, single, random or weight based random.
+- NEW: Added camera follow graph to CharacterController demo.
+- NEW: Added support for custom FRVariable attributes, for custom GUI drawing.
+- NEW: Added FRFloatRange + FRIntRange variable attributes to draw a slider with min, max value.
+- NEW: Added remove button to every variable in blackboard for faster variable removal.
+- NEW: Added left mouse button + left Alt panning
+
+- Bugfix: internal nodes are now hidden from node panel
+- Bugfix: fixed bug where nodes with more than one output are being collapsed to a wrong height.
+- Bugfix: fixed bug where node creation would fail if a script with same name exists.
+- Bugfix: fixed rare null ref exception when using blackboard scene overrides.
+
+- Changed: Removed obsolete Draw methods in FRVariable: Draw(bool _allowSceneObject) and Draw() please use Draw(bool _allowSceneObject, object[] _attributes) and Draw(Rect _rect) instead.
+
+version 1.1
+-------------
+- NEW: Nodes can now be expanded to show FRVariable types including attribute gui decorators.
+- NEW: New coroutine node support
+- NEW: New Node wizard to support coroutine nodes
+- NEW: Added option in settings to set expanded nodes as default.
+- NEW: Added two new shortcuts to expand and collapse nodes. Works on all or only on selected nodes
+- NEW: Added HideInNode FRVariable attribute to hide variables in nodes
+- NEW: Added VariableGroup FRVariable attribute to group variables in nodes
+- NEW: Added coroutine node color to default colors in settings 
+- NEW: Added methods: AddOutput(); and RemoveOutput(); must be used to make sure expanded nodes have correct height.
+- NEW: Added new node attribute which takes a string array to define node outputs 
+
+- Bugfix wait node gui draws progress bar even if not active
+- Bugfix click in minimap resets zoom
+- Bugfix node inspector not updating variable fields
+- Bugfix removed script field in default node inspector
+- Bugfix guilayout scope.finalize() error when selecting a node
+- Bugfix frvariable connected to blackboards not showing blackboard values.
+- Bugfix node runtime editor highlighting stays as long as node is active
+- Bugfix removed new blackboard and new evenboard button from graph inspector.
+- Bugfix null reference exception when user removes blackboard from graph and node variables are still connected to it.
+- Bugfix error indication not being resetted in graph.
+- Bugfix better automatic node alignment
+
+version 1.0.2p2
+-------------
+- API: Added ExecuteNext(Enum _outputEnum, FlowReactorComponent _flowReactor) for custom enum output types definition.
+- Bugfix: Fixed minimap minimum size too small
+- Bugfix: Fixed broken graph when creating new graph from FlowReactorComponent
+- Bugfix: Fixed node inpsector values scroll panel too short
+- Bugfix: Fixed editor creates garbage when Flowreactor component is selected and scene is running
+- Bugfix: Fixed opening a graph creates multiple new windows even if it's already open.
+- Bugfix: Fixed renaming blackboard variables doesn't update scene override variables immediately.
+- Bugfix: Fixed scene override variables are now preserved when "override" is unchecked (Warning, this fix can break custom variable types)
+
+version 1.0.2p1
+-------------
+- New: Added simple ToDo node. Create trello like task nodes
+- New: Possibility to pan graph with ALT + right mouse button
+
+- Bugfix: Fixed occasional canvas jittering
+- Bugfix: Fixed FRVariables returning exception error when not ready (deserialized)
+- Bugfix: Fixed custom node gui elements not selectable when node inspector is open
+- Bugfix: Fixed disconnecting output of event node resulted in active spline.
+
+version 1.0.1
+-------------
+- New: Added MoveTowards node
+- New: Added SetParent node
+- New: Added AnchoredPosition option in DOSequence node
+- New: Added method CallEventByName(string eventName) to eventboard
+- New: Added method GetVariableByName<T>(string variableName) to blackboard
+- New: Added API demo
+- New: Added stack trace to error log message
+
+- Bugfix: Fixed disappearing int values in blackboard (hidden)
+
+version 1.0p3
+-------------
+- New: Added possibility to change blackboard variable name field width size.
+
+- Changed: Blackboard variable selection box is larger now.
+- Changed: Create sub-graph hotkey has been changed to CTRL + ALT + S to prevent collision with save hotkey
+
+- Bugfix: Node inspector not being cleared when deleting node.
+- Bugfix: FRInt can't have negative values.
+- Bugfix: Assigning new blackboard did not refresh blackboard list. Resulting in modifying old blackboard.
+- Bugfix: Blackboard add new variable list not sorted by name.
+- Bugfix: Copy pasting node several times overlaps last node.
+- Bugfix: Wrong variable value in node inspector when selecting different but same type of node. (Node inspector not being refreshed)
+
+version 1.0p2
+-------------
+- Bugfix: Fixed build support when using Il2cpp backend and AOT platforms
+- Bugfix: Fixed node appear on wrong position when zoom level is not 1:1
+- Bugfix: Fixed node copy bug, outputs have no labels after copying
+
+version 1.0p1
+-------------
+- New: Added split node for splitting one flow sequence into two.
+- Bugfix: Fixed weird click behaviour because of hidden minimap "eating" mouse inputs
+- Bugfix: Not possible to assign game object to blackboard scene override.
+
+version 1.0
+----------------
+- Initial Release

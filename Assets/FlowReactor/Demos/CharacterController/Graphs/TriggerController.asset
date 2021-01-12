@@ -1,0 +1,2554 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8745878175300882160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322a358b86b48fc4e82bd83f750847b3, type: 3}
+  m_Name: CompareBool
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 11
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -8745878175300882160}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 6bd77ed557359664fa610c1ab8088bde, type: 3}
+  inputNodes:
+  - id: 
+    guid: c02b13dc-3c86-4fda-94a1-b822b2d05269
+    inputNode: {fileID: 3654709632137491038}
+  outputNodes:
+  - id: True
+    guid: 1218d46b-e059-4772-9d5d-76725afc510a
+    subGraphExitguid: 
+    outputNode: {fileID: 3562877392110344330}
+    endlessLoop: 0
+  - id: False
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: a5e1e76f-eb3f-475d-8241-95a1a34d2521
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -198.00024
+    y: 259.49976
+    width: 150
+    height: 80
+  title: CompareBool
+  breakpoint: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: CompareBool
+    category: FlowReactor/Variables/Compare
+    description: CompareBool
+    color: flowNodeColor
+    outputSlotCount: 2
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24312.026446302978
+  compare:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: d28b68dc-7f09-472a-a7fe-8868555af33f
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+  with:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+--- !u!114 &-8015270276100030066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84821e2574b32c4996b3d7b14f93e2b, type: 3}
+  m_Name: ConvertPositionToVector3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 6
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -8015270276100030066}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 3962e29bd10ab924692930622d245f33, type: 3}
+  inputNodes:
+  - id: 
+    guid: 1218d46b-e059-4772-9d5d-76725afc510a
+    inputNode: {fileID: 3562877392110344330}
+  outputNodes:
+  - id: 
+    guid: 63fdb57b-3c42-4f7a-b844-43bae8499b69
+    subGraphExitguid: 
+    outputNode: {fileID: 9005153636481981399}
+    endlessLoop: 0
+  guid: e412f398-b41d-4a40-aa1e-da1d71d1be20
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 201.99988
+    y: 259.49976
+    width: 150
+    height: 60
+  title: PositionToVector3
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: ConvertPositionToVector3
+    category: FlowReactor/Variables/Convert
+    description: Convert objects position value to vector3
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24277.44454140298
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 55ddb771-0477-4caa-ab0c-572dfac8515d
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  toVector3:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 9f56ee2d-5cdf-4036-9bb0-25caf304d9c7
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _vector3: {x: 0, y: 0, z: 0}
+--- !u!114 &-4012314788024972797
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2c4119dc80c89478d7e47247a4ba6a, type: 3}
+  m_Name: ModifyBool
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 12
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -4012314788024972797}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  inputNodes:
+  - id: 
+    guid: 63fdb57b-3c42-4f7a-b844-43bae8499b69
+    inputNode: {fileID: 9005153636481981399}
+  outputNodes:
+  - id: 
+    guid: a280785f-ac86-4993-86c0-2e9db59e19ca
+    subGraphExitguid: 
+    outputNode: {fileID: 8861522904822938747}
+    endlessLoop: 0
+  guid: 3a7b0880-f3ed-491b-9353-aa3130f4e66b
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 602.0006
+    y: 259.49976
+    width: 150
+    height: 60
+  title: ModifyBool
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: ModifyBool
+    category: FlowReactor/Variables/Modify
+    description: ModifyBool
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24277.44456200298
+  value:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: d28b68dc-7f09-472a-a7fe-8868555af33f
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+  setTo:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 1
+  selectedOperator: 0
+--- !u!114 &-2013438821294038029
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651cd5243778e82488d38c07ec6ae5f8, type: 3}
+  m_Name: SetPosition
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 7
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -2013438821294038029}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: a280785f-ac86-4993-86c0-2e9db59e19ca
+    inputNode: {fileID: 8861522904822938747}
+  outputNodes:
+  - id: 
+    guid: a017e497-164f-4660-9ea8-d936f0079be0
+    subGraphExitguid: 
+    outputNode: {fileID: 1135493326111081108}
+    endlessLoop: 0
+  guid: f88ac343-6834-46d7-8a64-e50c8c69958a
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 24.5
+    y: 396
+    width: 150
+    height: 60
+  title: SetPosition
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: SetPosition
+    category: Unity/Transform
+    description: Sets the position of a game object
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24277.54417320298
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 560d150b-c0a5-465d-8343-88e123926567
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  position:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 9f56ee2d-5cdf-4036-9bb0-25caf304d9c7
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _vector3: {x: 0, y: 0, z: 0}
+--- !u!114 &-1308874719294090836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb098d53ae6c8449d938f22600948d, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 15
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -1308874719294090836}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: dd4acbe09d26a784589ac1d1cbb29c65, type: 3}
+  inputNodes:
+  - id: 
+    guid: 39fc5e7a-35fd-4e9c-958d-1cf4ad42673c
+    inputNode: {fileID: 6509455460430147895}
+  outputNodes:
+  - id: 
+    guid: a3a7fea4-d159-478e-a90d-392e4eec1765
+    subGraphExitguid: 
+    outputNode: {fileID: 6002895838009255541}
+    endlessLoop: 0
+  guid: 4b258098-0687-43b7-8124-24f953e5fb0d
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 203.1427
+    y: -6.7860413
+    width: 150
+    height: 60
+  title: Wait
+  breakpoint: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: Wait
+    category: FlowReactor/Flow
+    description: Wait
+    color: flowNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24312.09564110298
+  delay:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _float: 0.1
+  restartTime:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+--- !u!114 &-1211476004304838293
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2c4119dc80c89478d7e47247a4ba6a, type: 3}
+  m_Name: ModifyBool
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 14
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -1211476004304838293}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  inputNodes:
+  - id: 
+    guid: a017e497-164f-4660-9ea8-d936f0079be0
+    inputNode: {fileID: 1135493326111081108}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 726f1875-756a-4095-91dc-b3fc53984185
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 424.5003
+    y: 397
+    width: 150
+    height: 60
+  title: ModifyBool
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: ModifyBool
+    category: FlowReactor/Variables/Modify
+    description: ModifyBool
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24277.650115702978
+  value:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: d28b68dc-7f09-472a-a7fe-8868555af33f
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+  setTo:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+  selectedOperator: 0
+--- !u!114 &-1030375273706884807
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb098d53ae6c8449d938f22600948d, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 8
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -1030375273706884807}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: dd4acbe09d26a784589ac1d1cbb29c65, type: 3}
+  inputNodes:
+  - id: 
+    guid: de1ba650-1d0a-4f5a-a0d9-06be07ee029a
+    inputNode: {fileID: 8099519250880479630}
+  outputNodes:
+  - id: 
+    guid: 39fc5e7a-35fd-4e9c-958d-1cf4ad42673c
+    subGraphExitguid: 
+    outputNode: {fileID: 6509455460430147895}
+    endlessLoop: 0
+  guid: ed42fbf0-2077-436c-a5f5-56d710490f79
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -196.85742
+    y: -6.7860413
+    width: 150
+    height: 60
+  title: Wait
+  breakpoint: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: Wait
+    category: FlowReactor/Flow
+    description: Wait
+    color: flowNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24311.98674810298
+  delay:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _float: 0.1
+  restartTime:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb3a9483b762924a80685f081d09d58, type: 3}
+  m_Name: TriggerController
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef, type: 2}
+    - {fileID: 11400000, guid: 67004b357fe269b4d876bc0f5e72b2a9, type: 2}
+    - {fileID: 4778974858766628704}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: flowReactorComponents
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 127802
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: blackboards
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[FlowReactor.Graph+Blackboards,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.GenericEqualityComparer`1[[System.Guid,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 2
+      Data: 7cdd8ab88ffc43b49ec6a1b14f920682
+    - Name: $v
+      Entry: 7
+      Data: 4|FlowReactor.Graph+Blackboards, Assembly-CSharp
+    - Name: blackboard
+      Entry: 10
+      Data: 1
+    - Name: foldout
+      Entry: 5
+      Data: true
+    - Name: blackboardEditor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: eventboards
+      Entry: 7
+      Data: 5|System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[FlowReactor.Graph+Eventboards,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 2
+      Data: 22323a2849fc48948a87266c80738598
+    - Name: $v
+      Entry: 7
+      Data: 6|FlowReactor.Graph+Eventboards, Assembly-CSharp
+    - Name: eventboard
+      Entry: 10
+      Data: 2
+    - Name: foldout
+      Entry: 5
+      Data: true
+    - Name: eventboardEditor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectedNodes
+      Entry: 7
+      Data: 7|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 8|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 78418
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isActive: 1
+  isRoot: 1
+  isCopy: 0
+  rootGraph: {fileID: 11400000}
+  subGraphNode: {fileID: 0}
+  subGraphNodeInstance: {fileID: 0}
+  nodes:
+  - {fileID: 8882002555457635200}
+  - {fileID: 4778974858766628704}
+  - {fileID: 3654709632137491038}
+  - {fileID: 3562877392110344330}
+  - {fileID: 6509455460430147895}
+  - {fileID: 5765514515570959159}
+  - {fileID: -8015270276100030066}
+  - {fileID: -2013438821294038029}
+  - {fileID: -1030375273706884807}
+  - {fileID: 8861522904822938747}
+  - {fileID: 8099519250880479630}
+  - {fileID: -8745878175300882160}
+  - {fileID: -4012314788024972797}
+  - {fileID: 6002895838009255541}
+  - {fileID: -1211476004304838293}
+  - {fileID: -1308874719294090836}
+  - {fileID: 1135493326111081108}
+  - {fileID: 5269427178150657326}
+  - {fileID: 809657615500998796}
+  - {fileID: 3856548493640278641}
+  - {fileID: 8572597501891776555}
+  - {fileID: 9005153636481981399}
+  tmpNodes: []
+  subGraphs: []
+  zoomCoordsOrigin: {x: -0, y: -2}
+  zoomFactor: 0.7
+  inspectorWidth: 400
+  tmpInspectorWidth: 400
+  showInspector: 1
+  isMouseOverNode: 1
+  mouseDownOnInspector: 0
+  selectedNode: {fileID: 4778974858766628704}
+  currentNode: {fileID: 0}
+  selectedNodeIndex: 1
+  lastSelectedNodeIndex: -1
+  drawModeOn: 0
+  selectionBoxDragging: 0
+  isNodeDragging: 0
+  highlightHandleIndex: 0
+  minimapSize: {x: 170, y: 100}
+  showMinimap: 0
+  dragMinimap: 0
+  resizeMinimap: 0
+  minimapMinSize: {x: 170, y: 100}
+  foldout: 0
+  globalMouseEvents: 1
+  globalMouseButton: 0
+  nodeSelectionPanelOpen: 0
+  dragNodeFromNodeMenu: 0
+  lastSelectedOutput: 0
+  nodeConnectPoint: {x: 646, y: 250}
+  mouseClickInGroupNode: 0
+  parentLevels:
+  - name: TriggerController
+    graph: {fileID: 11400000}
+  currentGraph: {fileID: 11400000}
+--- !u!114 &809657615500998796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b3c7c729b5a11459b508cf8e537844, type: 3}
+  m_Name: Group
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 18
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 809657615500998796}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes: []
+  guid: aaf8defb-fc22-4bc7-b143-c8544b6c7744
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -481.85706
+    y: -201.78607
+    width: 1300.0001
+    height: 325.00006
+  title: Trigger 1
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0.2796367, g: 0.4140722, b: 0.7042, a: 1}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 1
+  nodeData:
+    name: Group
+    category: Internal
+    description: Group
+    color: actionNodeColor
+    outputSlotCount: 0
+    nodeType: 2
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 0
+  ok: 0
+  groupTitle: Trigger 1
+  outputStateNodes: []
+  inputStateNodes: []
+  nodeChilds:
+  - node: {fileID: 8882002555457635200}
+    relativePos: {x: 75, y: 70.00006}
+  - node: {fileID: 4778974858766628704}
+    relativePos: {x: 474.99976, y: 70.00006}
+  - node: {fileID: 6509455460430147895}
+    relativePos: {x: 484.99963, y: 195.00006}
+  - node: {fileID: 5765514515570959159}
+    relativePos: {x: 674.99976, y: 70.00006}
+  - node: {fileID: 0}
+    relativePos: {x: 874.99994, y: 70.00006}
+  - node: {fileID: -1030375273706884807}
+    relativePos: {x: 284.99963, y: 195.00006}
+  - node: {fileID: 8099519250880479630}
+    relativePos: {x: 1075.0005, y: 70.00006}
+  - node: {fileID: 6002895838009255541}
+    relativePos: {x: 884.99994, y: 195.00006}
+  - node: {fileID: -1308874719294090836}
+    relativePos: {x: 684.99976, y: 195.00006}
+  - node: {fileID: 5269427178150657326}
+    relativePos: {x: 274.99988, y: 70.00006}
+--- !u!114 &1135493326111081108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb098d53ae6c8449d938f22600948d, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 16
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 1135493326111081108}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: dd4acbe09d26a784589ac1d1cbb29c65, type: 3}
+  inputNodes:
+  - id: 
+    guid: f88ac343-6834-46d7-8a64-e50c8c69958a
+    inputNode: {fileID: -2013438821294038029}
+  outputNodes:
+  - id: 
+    guid: 726f1875-756a-4095-91dc-b3fc53984185
+    subGraphExitguid: 
+    outputNode: {fileID: -1211476004304838293}
+    endlessLoop: 0
+  guid: a017e497-164f-4660-9ea8-d936f0079be0
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 224.49976
+    y: 397
+    width: 150
+    height: 60
+  title: Wait
+  breakpoint: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: Wait
+    category: FlowReactor/Flow
+    description: Wait
+    color: flowNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24277.650115602977
+  delay:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _float: 0.1
+  restartTime:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+--- !u!114 &3562877392110344330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49254119c187acd4e817fa32ee705a21, type: 3}
+  m_Name: CompareTag
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 3
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 3562877392110344330}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 6bd77ed557359664fa610c1ab8088bde, type: 3}
+  inputNodes:
+  - id: 
+    guid: a5e1e76f-eb3f-475d-8241-95a1a34d2521
+    inputNode: {fileID: -8745878175300882160}
+  outputNodes:
+  - id: 
+    guid: e412f398-b41d-4a40-aa1e-da1d71d1be20
+    subGraphExitguid: 
+    outputNode: {fileID: -8015270276100030066}
+    endlessLoop: 0
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 1218d46b-e059-4772-9d5d-76725afc510a
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 1.9997559
+    y: 259.49976
+    width: 150
+    height: 80
+  title: CompareTag
+  breakpoint: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: CompareTag
+    category: FlowReactor/Variables/Compare
+    description: Compares object with tag
+    color: flowNodeColor
+    outputSlotCount: 2
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24277.44453120298
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 560d150b-c0a5-465d-8343-88e123926567
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  tag:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _string: Player
+--- !u!114 &3654709632137491038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4980c1a14f29de04ba55b967ea7406be, type: 3}
+  m_Name: OnTriggerEnter
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 2
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 3654709632137491038}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: fec7f0cbaabc9d240b56239ba48c3b31, type: 3}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: a5e1e76f-eb3f-475d-8241-95a1a34d2521
+    subGraphExitguid: 
+    outputNode: {fileID: -8745878175300882160}
+    endlessLoop: 0
+  guid: c02b13dc-3c86-4fda-94a1-b822b2d05269
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -397.99988
+    y: 259.49976
+    width: 150
+    height: 60
+  title: OnTriggerEnter
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: OnTriggerEnter
+    category: Unity/Physics/Events
+    description: On Trigger Enter
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24312.026446202977
+  layerMask:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _layerMask:
+      serializedVersion: 2
+      m_Bits: 3895
+  listener:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 68bd6bbe-d8ff-4e72-949a-535abba40bd7
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: listener
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  collider:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 560d150b-c0a5-465d-8343-88e123926567
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+--- !u!114 &3856548493640278641
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b3c7c729b5a11459b508cf8e537844, type: 3}
+  m_Name: Group
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 19
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 3856548493640278641}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes: []
+  guid: f4fda1d1-c011-4d1e-92f3-988ef9a0668d
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -472.99988
+    y: 189.49976
+    width: 1300.0002
+    height: 337.50012
+  title: Trigger 2
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0.49101844, g: 0.63520455, b: 0.7096069, a: 1}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 1
+  nodeData:
+    name: Group
+    category: Internal
+    description: Group
+    color: actionNodeColor
+    outputSlotCount: 0
+    nodeType: 2
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 0
+  ok: 0
+  groupTitle: Trigger 2
+  outputStateNodes: []
+  inputStateNodes: []
+  nodeChilds:
+  - node: {fileID: 3654709632137491038}
+    relativePos: {x: 75, y: 70}
+  - node: {fileID: 3562877392110344330}
+    relativePos: {x: 474.99963, y: 70}
+  - node: {fileID: -8015270276100030066}
+    relativePos: {x: 674.99976, y: 70}
+  - node: {fileID: -2013438821294038029}
+    relativePos: {x: 497.49988, y: 206.50024}
+  - node: {fileID: 8861522904822938747}
+    relativePos: {x: 297.49963, y: 207.50024}
+  - node: {fileID: -8745878175300882160}
+    relativePos: {x: 274.99963, y: 70}
+  - node: {fileID: -4012314788024972797}
+    relativePos: {x: 1075.0005, y: 70}
+  - node: {fileID: -1211476004304838293}
+    relativePos: {x: 897.5002, y: 207.50024}
+  - node: {fileID: 1135493326111081108}
+    relativePos: {x: 697.49963, y: 207.50024}
+  - node: {fileID: 9005153636481981399}
+    relativePos: {x: 874.3413, y: 70.073364}
+--- !u!114 &4778974858766628704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49254119c187acd4e817fa32ee705a21, type: 3}
+  m_Name: CompareTag
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 1
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 4778974858766628704}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 6bd77ed557359664fa610c1ab8088bde, type: 3}
+  inputNodes:
+  - id: 
+    guid: c84952f0-e09a-4421-814c-5c3fab3a4490
+    inputNode: {fileID: 5269427178150657326}
+  outputNodes:
+  - id: True
+    guid: 8e17a091-4372-4886-ba65-3476895aed2b
+    subGraphExitguid: 
+    outputNode: {fileID: 5765514515570959159}
+    endlessLoop: 0
+  - id: False
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 89dc59f6-dbf8-4a7a-bd78-cf0f01eb10e8
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -6.8573
+    y: -131.78601
+    width: 150
+    height: 80
+  title: CompareTag
+  breakpoint: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: CompareTag
+    category: FlowReactor/Variables/Compare
+    description: Compares object with tag
+    color: flowNodeColor
+    outputSlotCount: 2
+    nodeType: 0
+  isMouseOver: 1
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24311.88667060298
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 560d150b-c0a5-465d-8343-88e123926567
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  tag:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _string: Player
+--- !u!114 &5269427178150657326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322a358b86b48fc4e82bd83f750847b3, type: 3}
+  m_Name: CompareBool
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 17
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 5269427178150657326}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 6bd77ed557359664fa610c1ab8088bde, type: 3}
+  inputNodes:
+  - id: 
+    guid: 318fe900-bd03-4db3-a819-00a03f96640e
+    inputNode: {fileID: 8882002555457635200}
+  outputNodes:
+  - id: True
+    guid: 89dc59f6-dbf8-4a7a-bd78-cf0f01eb10e8
+    subGraphExitguid: 
+    outputNode: {fileID: 4778974858766628704}
+    endlessLoop: 0
+  - id: False
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: c84952f0-e09a-4421-814c-5c3fab3a4490
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -206.85718
+    y: -131.78601
+    width: 150
+    height: 80
+  title: CompareBool
+  breakpoint: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: CompareBool
+    category: FlowReactor/Variables/Compare
+    description: CompareBool
+    color: flowNodeColor
+    outputSlotCount: 2
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24311.88666130298
+  compare:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: d28b68dc-7f09-472a-a7fe-8868555af33f
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+  with:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+--- !u!114 &5765514515570959159
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84821e2574b32c4996b3d7b14f93e2b, type: 3}
+  m_Name: ConvertPositionToVector3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 5
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 5765514515570959159}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 3962e29bd10ab924692930622d245f33, type: 3}
+  inputNodes:
+  - id: 
+    guid: 89dc59f6-dbf8-4a7a-bd78-cf0f01eb10e8
+    inputNode: {fileID: 4778974858766628704}
+  outputNodes:
+  - id: 
+    guid: c3bd429e-82e0-4d26-b636-722e45178afa
+    subGraphExitguid: 
+    outputNode: {fileID: 8572597501891776555}
+    endlessLoop: 0
+  guid: 8e17a091-4372-4886-ba65-3476895aed2b
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 193.1427
+    y: -131.78601
+    width: 150
+    height: 60
+  title: PositionToVector3
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: ConvertPositionToVector3
+    category: FlowReactor/Variables/Convert
+    description: Convert objects position value to vector3
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24311.886680302978
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 68bd6bbe-d8ff-4e72-949a-535abba40bd7
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  toVector3:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: e73c67be-d961-4ade-81ac-2d42794328ca
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _vector3: {x: 0, y: 0, z: 0}
+--- !u!114 &6002895838009255541
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2c4119dc80c89478d7e47247a4ba6a, type: 3}
+  m_Name: ModifyBool
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 13
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 6002895838009255541}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  inputNodes:
+  - id: 
+    guid: 4b258098-0687-43b7-8124-24f953e5fb0d
+    inputNode: {fileID: -1308874719294090836}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: a3a7fea4-d159-478e-a90d-392e4eec1765
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 403.14288
+    y: -6.7860413
+    width: 150
+    height: 60
+  title: ModifyBool
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: ModifyBool
+    category: FlowReactor/Variables/Modify
+    description: ModifyBool
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24312.095641302978
+  value:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: d28b68dc-7f09-472a-a7fe-8868555af33f
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+  setTo:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+  selectedOperator: 0
+--- !u!114 &6509455460430147895
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651cd5243778e82488d38c07ec6ae5f8, type: 3}
+  m_Name: SetPosition
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 4
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 6509455460430147895}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: ed42fbf0-2077-436c-a5f5-56d710490f79
+    inputNode: {fileID: -1030375273706884807}
+  outputNodes:
+  - id: 
+    guid: 4b258098-0687-43b7-8124-24f953e5fb0d
+    subGraphExitguid: 
+    outputNode: {fileID: -1308874719294090836}
+    endlessLoop: 0
+  guid: 39fc5e7a-35fd-4e9c-958d-1cf4ad42673c
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 3.1425781
+    y: -6.7860413
+    width: 150
+    height: 60
+  title: SetPosition
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: SetPosition
+    category: Unity/Transform
+    description: Sets the position of a game object
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24311.98677590298
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 560d150b-c0a5-465d-8343-88e123926567
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  position:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: e73c67be-d961-4ade-81ac-2d42794328ca
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _vector3: {x: 0, y: 0, z: 0}
+--- !u!114 &8099519250880479630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2c4119dc80c89478d7e47247a4ba6a, type: 3}
+  m_Name: ModifyBool
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 10
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 8099519250880479630}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 1c30f931a1d3e534d958b7e3a128961c, type: 3}
+  inputNodes:
+  - id: 
+    guid: c3bd429e-82e0-4d26-b636-722e45178afa
+    inputNode: {fileID: 8572597501891776555}
+  outputNodes:
+  - id: 
+    guid: ed42fbf0-2077-436c-a5f5-56d710490f79
+    subGraphExitguid: 
+    outputNode: {fileID: -1030375273706884807}
+    endlessLoop: 0
+  guid: de1ba650-1d0a-4f5a-a0d9-06be07ee029a
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 593.14343
+    y: -131.78601
+    width: 150
+    height: 60
+  title: ModifyBool
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: ModifyBool
+    category: FlowReactor/Variables/Modify
+    description: ModifyBool
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24311.88669910298
+  value:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: d28b68dc-7f09-472a-a7fe-8868555af33f
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+  setTo:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 1
+  selectedOperator: 0
+--- !u!114 &8572597501891776555
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3cba8783bc2c4685dad03e5956ac7, type: 3}
+  m_Name: CallEvent
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: parameters
+      Entry: 7
+      Data: 0|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 20
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 8572597501891776555}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: fec7f0cbaabc9d240b56239ba48c3b31, type: 3}
+  inputNodes:
+  - id: 
+    guid: 8e17a091-4372-4886-ba65-3476895aed2b
+    inputNode: {fileID: 5765514515570959159}
+  outputNodes:
+  - id: 
+    guid: de1ba650-1d0a-4f5a-a0d9-06be07ee029a
+    subGraphExitguid: 
+    outputNode: {fileID: 8099519250880479630}
+    endlessLoop: 0
+  guid: c3bd429e-82e0-4d26-b636-722e45178afa
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 395.34143
+    y: -132.42691
+    width: 150
+    height: 60
+  title: CallEvent
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: CallEvent
+    category: FlowReactor/Events
+    description: Call a FlowReactor event
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 24311.88669300298
+  eventBoard: {fileID: 11400000, guid: 67004b357fe269b4d876bc0f5e72b2a9, type: 2}
+  selectedEB: 0
+  lastSelectedEB: 0
+  selectedEventID: 5c67156a-af7d-4ab7-b422-99b5aa8c01a6
+  lastSelectedEventID: 5c67156a-af7d-4ab7-b422-99b5aa8c01a6
+  selectedEventIDInt: 0
+--- !u!114 &8861522904822938747
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb098d53ae6c8449d938f22600948d, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 9
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 8861522904822938747}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: dd4acbe09d26a784589ac1d1cbb29c65, type: 3}
+  inputNodes:
+  - id: 
+    guid: 3a7b0880-f3ed-491b-9353-aa3130f4e66b
+    inputNode: {fileID: -4012314788024972797}
+  outputNodes:
+  - id: 
+    guid: f88ac343-6834-46d7-8a64-e50c8c69958a
+    subGraphExitguid: 
+    outputNode: {fileID: -2013438821294038029}
+    endlessLoop: 0
+  guid: a280785f-ac86-4993-86c0-2e9db59e19ca
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -175.50024
+    y: 397
+    width: 150
+    height: 60
+  title: Wait
+  breakpoint: 0
+  color: {r: 1, g: 1, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: Wait
+    category: FlowReactor/Flow
+    description: Wait
+    color: flowNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24277.54414210298
+  delay:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _float: 0.1
+  restartTime:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+--- !u!114 &8882002555457635200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4980c1a14f29de04ba55b967ea7406be, type: 3}
+  m_Name: OnTriggerEnter
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 0
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 8882002555457635200}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: fec7f0cbaabc9d240b56239ba48c3b31, type: 3}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: c84952f0-e09a-4421-814c-5c3fab3a4490
+    subGraphExitguid: 
+    outputNode: {fileID: 5269427178150657326}
+    endlessLoop: 0
+  guid: 318fe900-bd03-4db3-a819-00a03f96640e
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -406.85706
+    y: -131.78601
+    width: 150
+    height: 60
+  title: OnTriggerEnter
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: OnTriggerEnter
+    category: Unity/Physics/Events
+    description: On Trigger Enter
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 1
+  hasError: 0
+  highlightGraphStartTime: 24311.88665430298
+  layerMask:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _layerMask:
+      serializedVersion: 2
+      m_Bits: 3895
+  listener:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 55ddb771-0477-4caa-ab0c-572dfac8515d
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  collider:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: f4162085a10fb9544bba5d22bc8f8cef,
+      type: 2}
+    blackboardGuid: 7cdd8ab8-8ffc-43b4-9ec6-a1b14f920682
+    variableGuid: 560d150b-c0a5-465d-8343-88e123926567
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+--- !u!114 &9005153636481981399
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3cba8783bc2c4685dad03e5956ac7, type: 3}
+  m_Name: CallEvent
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: parameters
+      Entry: 7
+      Data: 0|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 21
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 9005153636481981399}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: fec7f0cbaabc9d240b56239ba48c3b31, type: 3}
+  inputNodes:
+  - id: 
+    guid: e412f398-b41d-4a40-aa1e-da1d71d1be20
+    inputNode: {fileID: -8015270276100030066}
+  outputNodes:
+  - id: 
+    guid: 3a7b0880-f3ed-491b-9353-aa3130f4e66b
+    subGraphExitguid: 
+    outputNode: {fileID: -4012314788024972797}
+    endlessLoop: 0
+  guid: 63fdb57b-3c42-4f7a-b844-43bae8499b69
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 401.34143
+    y: 259.57312
+    width: 150
+    height: 60
+  title: CallEvent
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: CallEvent
+    category: FlowReactor/Events
+    description: Call a FlowReactor event
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 24277.44455610298
+  eventBoard: {fileID: 11400000, guid: 67004b357fe269b4d876bc0f5e72b2a9, type: 2}
+  selectedEB: 0
+  lastSelectedEB: 0
+  selectedEventID: 5c67156a-af7d-4ab7-b422-99b5aa8c01a6
+  lastSelectedEventID: 5c67156a-af7d-4ab7-b422-99b5aa8c01a6
+  selectedEventIDInt: 0

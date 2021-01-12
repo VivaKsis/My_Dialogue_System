@@ -1,0 +1,616 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3792c6a21707d49baafef4388fe27b, type: 3}
+  m_Name: TriggerBlackboard
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -8015270276100030066, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: 5765514515570959159, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: 4778974858766628704, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: 6509455460430147895, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: 3562877392110344330, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: -2013438821294038029, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: 0}
+    - {fileID: 5269427178150657326, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: 8099519250880479630, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: 6002895838009255541, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: -8745878175300882160, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: -4012314788024972797, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    - {fileID: -1211476004304838293, guid: c99f49b3aa3d1cb49bb931741faedf9f, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: dragEntry
+      Entry: 2
+      Data: 00000000000000000000000000000000
+    - Name: variables
+      Entry: 7
+      Data: 0|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: 55ddb77104774caaab0c572dfac8515d
+    - Name: 
+      Entry: 7
+      Data: 1|FlowReactor.FRGameObject, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 6
+      Data: 
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: variableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: Trigger1
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: connectedNodes
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _gameObject
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: 68bd6bbed8ff4e72949a535abba40bd7
+    - Name: 
+      Entry: 7
+      Data: 3|FlowReactor.FRGameObject, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 6
+      Data: 
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: variableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: Trigger2
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: connectedNodes
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _gameObject
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: 560d150bc0a5465d834388e123926567
+    - Name: 
+      Entry: 7
+      Data: 5|FlowReactor.FRGameObject, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 6
+      Data: 
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: variableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: Collider
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: connectedNodes
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _gameObject
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: 9f56ee2d5cdf40369bb025caf304d9c7
+    - Name: 
+      Entry: 7
+      Data: 7|FlowReactor.FRVector3, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 6
+      Data: 
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: variableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: Trigger1Position
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: connectedNodes
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _vector3
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 8
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: e73c67bed9614ade81ac2d42794328ca
+    - Name: 
+      Entry: 7
+      Data: 9|FlowReactor.FRVector3, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 6
+      Data: 
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: variableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: Trigger2Position
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: connectedNodes
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _vector3
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -8
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: d28b68dc7f09472aa7fe8868555af33f
+    - Name: 
+      Entry: 7
+      Data: 11|FlowReactor.FRBoolean, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 6
+      Data: 
+    - Name: assignedBlackboard
+      Entry: 6
+      Data: 
+    - Name: blackboardGuid
+      Entry: 6
+      Data: 
+    - Name: variableGuid
+      Entry: 6
+      Data: 
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 6
+      Data: 
+    - Name: tableID
+      Entry: 6
+      Data: 
+    - Name: entryID
+      Entry: 6
+      Data: 
+    - Name: valueID
+      Entry: 6
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: IsTeleporting
+    - Name: typeName
+      Entry: 6
+      Data: 
+    - Name: connectedNodes
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: _bool
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isDragging: 0
+  showDataboxInfo: 0
+  useDatabox: 0
+  databoxObjectManager: {fileID: 0}
+  tempVariablesList:
+  - id: 55ddb771-0477-4caa-ab0c-572dfac8515d
+  - id: 68bd6bbe-d8ff-4e72-949a-535abba40bd7
+  - id: 560d150b-c0a5-465d-8343-88e123926567
+  - id: 9f56ee2d-5cdf-4036-9bb0-25caf304d9c7
+  - id: e73c67be-d961-4ade-81ac-2d42794328ca
+  - id: d28b68dc-7f09-472a-a7fe-8868555af33f
+  foldout: 0

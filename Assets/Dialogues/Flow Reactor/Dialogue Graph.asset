@@ -1,0 +1,2720 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7736229117369932812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d07aaef2abb15c4b84008f1c2b929ad, type: 3}
+  m_Name: SetAnswers
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: e0677288c2158fa488b7f41f0c5f1aba, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|FlowReactor.Nodes.Node+NodeVariableGroups+Variables, Assembly-CSharp
+    - Name: variableName
+      Entry: 1
+      Data: IndexAnswerChosen
+    - Name: variable
+      Entry: 7
+      Data: 5|FlowReactor.FRInt, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 1
+      Data: 
+    - Name: exposedName
+      Entry: 1
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 10
+      Data: 1
+    - Name: blackboardGuid
+      Entry: 1
+      Data: 5d7d08c1-fb6b-4e72-a00b-1df93ee50769
+    - Name: variableGuid
+      Entry: 1
+      Data: f6da13c4-8197-4a7d-a26e-c20b99cb0f80
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 1
+      Data: 
+    - Name: tableID
+      Entry: 1
+      Data: 
+    - Name: entryID
+      Entry: 1
+      Data: 
+    - Name: valueID
+      Entry: 1
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: 
+    - Name: typeName
+      Entry: 1
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: connectedNodes
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: Value
+      Entry: 3
+      Data: 1
+    - Name: _int
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: variableAttributes
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+NodeVariableAttribute,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 8|FlowReactor.Nodes.Node+NodeVariableGroups+NodeVariableHideInNodeAttribute,
+        Assembly-CSharp
+    - Name: attributeHideInNode
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: additionalGUIHeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 14
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -7736229117369932812}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: 93a92d1e-d203-448d-a950-36b893e0319a
+    inputNode: {fileID: 985267301386773852}
+  - id: 
+    guid: 4e151e2f-a86c-4b0b-ba0c-a1c0c3863ea8
+    inputNode: {fileID: 9134825709474394122}
+  outputNodes:
+  - id: Cristin
+    guid: d29ea7ea-3e49-44f0-a7a0-19c2ac4b829a
+    subGraphExitguid: 
+    outputNode: {fileID: 5784466313765098839}
+    endlessLoop: 0
+  - id: Martin
+    guid: 1d3b7367-47ca-4479-9d39-42b66ecffe42
+    subGraphExitguid: 
+    outputNode: {fileID: -3036615761527325273}
+    endlessLoop: 0
+  guid: 6285dd74-d44a-4c35-8763-4b23c7055ab9
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -231
+    y: 66
+    width: 150
+    height: 100
+  title: SetAnswers
+  breakpoint: 0
+  color: {r: 1, g: 0.4509804, b: 0, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: SetAnswers
+    typeName: SetAnswers
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Sets answers in a frame. Add OnAnswerChosen as Input to navigate
+      to an answer
+    color: '#ff7300'
+    outputSlotCount: 0
+    nodeOutputs: []
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 40
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 1
+  highlightStartTime: 0
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  SceneFramesBlackBoard: {fileID: 11400000, guid: 5955c21b0fcb13a49be275714a719b27, type: 2}
+  _frame: {fileID: 0}
+  id: 1
+  _answers:
+  - Cristin
+  - Martin
+  IndexAnswerChosen:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    nodeOwner: {fileID: 0}
+    exposedNodeName: 
+    exposedName: 
+    editExposedName: 0
+    assignedBlackboard: {fileID: 11400000, guid: e0677288c2158fa488b7f41f0c5f1aba, type: 2}
+    blackboardGuid: 5d7d08c1-fb6b-4e72-a00b-1df93ee50769
+    variableGuid: f6da13c4-8197-4a7d-a26e-c20b99cb0f80
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    showError: 0
+    sceneReferenceOnly: 0
+    connectedNodes: []
+    showConnectedNodes: 0
+    _int: 0
+--- !u!114 &-7691571057884068451
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079bc01ab4e3f1a4a8d80ff30deeafb0, type: 3}
+  m_Name: SetGraph
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 13
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -7691571057884068451}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: 8fc94688-2eed-46b4-ab6c-4fa7e0a3abbd
+    inputNode: {fileID: -3837897510951671974}
+  outputNodes:
+  - id: 
+    guid: 2fba46af-8fe3-4edd-add1-a411baa8105f
+    subGraphExitguid: 
+    outputNode: {fileID: -7164658261610764427}
+    endlessLoop: 0
+  guid: 52157f50-7b94-4e90-8c42-71d5a8ce7e34
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -1050.6666
+    y: 71.333374
+    width: 150
+    height: 60
+  title: SetGraph
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: SetGraph
+    typeName: SetGraph
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Sets scene objects into nodes' fields by id. Is executed automatically
+      after start or by button in editor
+    color: actionNodeColor
+    outputSlotCount: 0
+    nodeOutputs:
+    - 
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 4435.7701235
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  _graph: {fileID: 11400000}
+--- !u!114 &-7434900200346363645
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a27f4e3eb00cc674a9026ef484572aeb, type: 3}
+  m_Name: OnMouseInput
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 4
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -7434900200346363645}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes: []
+  outputNodes:
+  - id: left down
+    guid: 89db3e80-c472-4aec-9238-7fc2405f7710
+    subGraphExitguid: 
+    outputNode: {fileID: -1780871701345624744}
+    endlessLoop: 0
+  guid: 69e114b3-8a85-4080-9ded-6e14197be1b7
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -863.95154
+    y: -248.95288
+    width: 150
+    height: 60
+  title: OnMouseInput
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    title: OnMouseInput
+    typeName: OnMouseInput
+    name: 
+    nameSpace: FlowReactor.Nodes.Unity
+    category: Unity/Input/Events
+    description: Listen to mouse input
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeOutputs: []
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 4596.6402001
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  selectedMouseButton: 0
+  selectedButtonState: 1
+--- !u!114 &-7164658261610764427
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b1f7ee7f5e98e4a9f5208b3ca1c6b5, type: 3}
+  m_Name: SetBackground
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 2
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -7164658261610764427}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: 52157f50-7b94-4e90-8c42-71d5a8ce7e34
+    inputNode: {fileID: -7691571057884068451}
+  outputNodes:
+  - id: 
+    guid: 7c3d15d5-50e0-4dc4-ba4a-31f224ca7b7d
+    subGraphExitguid: 
+    outputNode: {fileID: -751003032067344663}
+    endlessLoop: 0
+  guid: 2fba46af-8fe3-4edd-add1-a411baa8105f
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -846.66504
+    y: 71.47693
+    width: 150
+    height: 60
+  title: SetBackground
+  breakpoint: 0
+  color: {r: 0.4509804, g: 0, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: SetBackground
+    typeName: SetBackground
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Set collocutor's image in the selected frame
+    color: '#7300ff'
+    outputSlotCount: 0
+    nodeOutputs:
+    - 
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 4435.7713061
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  _sprite: {fileID: 21300000, guid: 6fcf001dfe2ccac4dbda9cc3a0bb4cae, type: 3}
+--- !u!114 &-4936962234380420394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b3bb5897775c94d949ce61e265031e, type: 3}
+  m_Name: EventListener
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parameters
+      Entry: 7
+      Data: 4|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 6
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -4936962234380420394}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 9f388bf525dcf8a4d93aed97efaebbf5, type: 3}
+  branchNode: {fileID: 0}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: 4e151e2f-a86c-4b0b-ba0c-a1c0c3863ea8
+    subGraphExitguid: 
+    outputNode: {fileID: 9134825709474394122}
+    endlessLoop: 0
+  guid: 43bfaa4e-d52d-4d7a-b47b-907caff59ee7
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -437.951
+    y: -71.809265
+    width: 150
+    height: 60
+  title: EventListener
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    title: EventListener
+    typeName: EventListener
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: FlowReactor/Events
+    description: Listen to FlowReactor event
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeOutputs: []
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 4596.6402183
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  eventBoard: {fileID: 11400000, guid: f374f351397514047bb43b54070ac702, type: 2}
+  selectedEB: 0
+  selectedEventID: 7b0d466e-e02e-4700-9fee-7903dbfae5f8
+  selectedEventIDInt: 0
+  lastSelectedEB: 0
+  lastSelectedEventID: 7b0d466e-e02e-4700-9fee-7903dbfae5f8
+--- !u!114 &-3837897510951671974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb17f102878e6f4db5d24a8ff3c5146, type: 3}
+  m_Name: OnStart
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 0
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -3837897510951671974}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 31ea14c66e7d1494bb586b47e238771e, type: 3}
+  branchNode: {fileID: 0}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: 52157f50-7b94-4e90-8c42-71d5a8ce7e34
+    subGraphExitguid: 
+    outputNode: {fileID: -7691571057884068451}
+    endlessLoop: 0
+  guid: 8fc94688-2eed-46b4-ab6c-4fa7e0a3abbd
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -1260.6426
+    y: 70.31067
+    width: 150
+    height: 60
+  title: OnStart
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 1
+  nodeData:
+    title: OnStart
+    typeName: OnStart
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: FlowReactor/Events
+    description: On Start
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeOutputs: []
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 4435.7645951
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+--- !u!114 &-3036615761527325273
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a9adb2fed44cc44b8ef4b56fe3f406, type: 3}
+  m_Name: SetCollocutor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 9
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -3036615761527325273}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: 9ed7b7ac-69dc-48f7-93dc-96f86f2d3f8e
+    inputNode: {fileID: 0}
+  - id: 
+    guid: 6285dd74-d44a-4c35-8763-4b23c7055ab9
+    inputNode: {fileID: -7736229117369932812}
+  outputNodes:
+  - id: 
+    guid: 0e7613fd-68f7-45d3-9674-b2ec06b3ec44
+    subGraphExitguid: 
+    outputNode: {fileID: 6065700493661325686}
+    endlessLoop: 0
+  guid: 1d3b7367-47ca-4479-9d39-42b66ecffe42
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -7.8552246
+    y: 115.19089
+    width: 150
+    height: 60
+  title: SetCollocutor
+  breakpoint: 0
+  color: {r: 0.050980393, g: 1, b: 0, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: SetCollocutor
+    typeName: SetCollocutor
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Set collocutor's image in the selected frame
+    color: '#0dff00'
+    outputSlotCount: 0
+    nodeOutputs:
+    - 
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 1
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 0
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  SceneFramesBlackBoard: {fileID: 11400000, guid: 5955c21b0fcb13a49be275714a719b27, type: 2}
+  _frame: {fileID: 0}
+  id: 1
+  _collocutorInfo: {fileID: 11400000, guid: 96cc539d191f77c4fb3cd1d20f356841, type: 2}
+  _sprite: {fileID: 21300000, guid: a2b355e5a61033141a7c848570278370, type: 3}
+  frameIsSceneObject: 1
+--- !u!114 &-1780871701345624744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3cba8783bc2c4685dad03e5956ac7, type: 3}
+  m_Name: CallEvent
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parameters
+      Entry: 7
+      Data: 4|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 7
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -1780871701345624744}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: fec7f0cbaabc9d240b56239ba48c3b31, type: 3}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: 71a129e9-0c3c-4de0-b09c-49a26f348999
+    inputNode: {fileID: 7231415243792168509}
+  - id: 
+    guid: 69e114b3-8a85-4080-9ded-6e14197be1b7
+    inputNode: {fileID: -7434900200346363645}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 89db3e80-c472-4aec-9238-7fc2405f7710
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -664.6659
+    y: -299.09576
+    width: 150
+    height: 60
+  title: CallEvent
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    title: CallEvent
+    typeName: CallEvent
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: FlowReactor/Events
+    description: Call a FlowReactor event
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeOutputs: []
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 4596.6402507
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  eventBoard: {fileID: 11400000, guid: f374f351397514047bb43b54070ac702, type: 2}
+  selectedEB: 0
+  lastSelectedEB: 0
+  selectedEventID: 7b0d466e-e02e-4700-9fee-7903dbfae5f8
+  lastSelectedEventID: 7b0d466e-e02e-4700-9fee-7903dbfae5f8
+  selectedEventIDInt: 0
+--- !u!114 &-751003032067344663
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a9adb2fed44cc44b8ef4b56fe3f406, type: 3}
+  m_Name: SetCollocutor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 1
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -751003032067344663}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: 2fba46af-8fe3-4edd-add1-a411baa8105f
+    inputNode: {fileID: -7164658261610764427}
+  outputNodes:
+  - id: 
+    guid: 4e151e2f-a86c-4b0b-ba0c-a1c0c3863ea8
+    subGraphExitguid: 
+    outputNode: {fileID: 9134825709474394122}
+    endlessLoop: 0
+  guid: 7c3d15d5-50e0-4dc4-ba4a-31f224ca7b7d
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -632.33203
+    y: 68.975586
+    width: 150
+    height: 60
+  title: SetCollocutor
+  breakpoint: 0
+  color: {r: 0.050980393, g: 1, b: 0, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: SetCollocutor
+    typeName: SetCollocutor
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Set collocutor's image in the selected frame
+    color: '#0dff00'
+    outputSlotCount: 0
+    nodeOutputs:
+    - 
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 150
+  originalNodeHeight: 60
+  nodeVariablesFieldHeight: 41
+  hiddenNodeFields: 0
+  highlightStartTime: 4435.776055
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  SceneFramesBlackBoard: {fileID: 11400000, guid: 5955c21b0fcb13a49be275714a719b27, type: 2}
+  _frame: {fileID: 0}
+  id: 3
+  _collocutorInfo: {fileID: 11400000, guid: 15a082a18db264543b6554b59dc9b217, type: 2}
+  _sprite: {fileID: 21300000, guid: 9b80e45d260514e409d8164da4dc9b79, type: 3}
+  frameIsSceneObject: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb3a9483b762924a80685f081d09d58, type: 3}
+  m_Name: Dialogue Graph
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: e0677288c2158fa488b7f41f0c5f1aba, type: 2}
+    - {fileID: 11400000, guid: 5955c21b0fcb13a49be275714a719b27, type: 2}
+    - {fileID: 11400000, guid: f374f351397514047bb43b54070ac702, type: 2}
+    - {fileID: -3036615761527325273}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: flowReactorComponents
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.FlowReactorComponent,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: blackboards
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[FlowReactor.Graph+Blackboards,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.GenericEqualityComparer`1[[System.Guid,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 2
+      Data: 5d7d08c1fb6b4e72a00b1df93ee50769
+    - Name: $v
+      Entry: 7
+      Data: 4|FlowReactor.Graph+Blackboards, Assembly-CSharp
+    - Name: blackboard
+      Entry: 10
+      Data: 0
+    - Name: lastBlackboard
+      Entry: 10
+      Data: 0
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: blackboardEditor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 2
+      Data: 1dad48b76cfd45be825ac2c57ab099bb
+    - Name: $v
+      Entry: 7
+      Data: 5|FlowReactor.Graph+Blackboards, Assembly-CSharp
+    - Name: blackboard
+      Entry: 10
+      Data: 1
+    - Name: lastBlackboard
+      Entry: 10
+      Data: 1
+    - Name: foldout
+      Entry: 5
+      Data: true
+    - Name: blackboardEditor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: eventboards
+      Entry: 7
+      Data: 6|System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[FlowReactor.Graph+Eventboards,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 2
+      Data: 19911922a82d4ae28e9214515459e60d
+    - Name: $v
+      Entry: 7
+      Data: 7|FlowReactor.Graph+Eventboards, Assembly-CSharp
+    - Name: eventboard
+      Entry: 10
+      Data: 2
+    - Name: foldout
+      Entry: 5
+      Data: true
+    - Name: eventboardEditor
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: exposedNodeVariables
+      Entry: 7
+      Data: 8|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Graph+ExposedVariables,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 9|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: selectedNodes
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FlowReactor.Nodes.Node,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10138
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  version: 
+  isActive: 1
+  isRoot: 1
+  isCopy: 0
+  rootGraph: {fileID: 11400000}
+  subGraphNode: {fileID: 0}
+  subGraphNodeInstance: {fileID: 0}
+  nodes:
+  - {fileID: -3837897510951671974}
+  - {fileID: -751003032067344663}
+  - {fileID: -7164658261610764427}
+  - {fileID: 9134825709474394122}
+  - {fileID: -7434900200346363645}
+  - {fileID: 7231415243792168509}
+  - {fileID: -4936962234380420394}
+  - {fileID: -1780871701345624744}
+  - {fileID: 5784466313765098839}
+  - {fileID: -3036615761527325273}
+  - {fileID: 985267301386773852}
+  - {fileID: 1955914143812151762}
+  - {fileID: 6065700493661325686}
+  - {fileID: -7691571057884068451}
+  - {fileID: -7736229117369932812}
+  tmpNodes: []
+  subGraphs: []
+  inspectors:
+  - selectedTab: 0
+    height: 200
+    splitRect:
+      serializedVersion: 2
+      x: 0
+      y: 195
+      width: 381
+      height: 5
+    isDragging: 0
+  zoomCoordsOrigin: {x: -0, y: 1}
+  zoomFactor: 1
+  inspectorWidth: 400
+  tmpInspectorWidth: 489
+  showInspector: 1
+  isMouseOverNode: 1
+  mouseDownOnInspector: 0
+  selectedNode: {fileID: -3036615761527325273}
+  lastSelectedNode: {fileID: 0}
+  currentNode: {fileID: 0}
+  selectedNodeIndex: 9
+  lastSelectedNodeIndex: -1
+  drawModeOn: 0
+  selectionBoxDragging: 0
+  isNodeDragging: 0
+  highlightHandleIndex: 0
+  minimapSize: {x: 170, y: 100}
+  showMinimap: 0
+  dragMinimap: 0
+  resizeMinimap: 0
+  minimapMinSize: {x: 170, y: 100}
+  foldout: 1
+  globalMouseEvents: 1
+  globalMouseButton: 0
+  nodeSelectionPanelOpen: 0
+  dragNodeFromNodeMenu: 0
+  lastSelectedOutput: 1
+  nodeConnectPoint: {x: 144, y: 81}
+  mouseClickInGroupNode: 0
+  currentGroupNodeDragging: {fileID: 0}
+  parentLevels:
+  - name: Dialogue Graph
+    graph: {fileID: 11400000}
+  currentGraph: {fileID: 11400000}
+--- !u!114 &985267301386773852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88891941bf5f21a44afa49b8bf197967, type: 3}
+  m_Name: OnAnswerChosen
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: e0677288c2158fa488b7f41f0c5f1aba, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|FlowReactor.Nodes.Node+NodeVariableGroups+Variables, Assembly-CSharp
+    - Name: variableName
+      Entry: 1
+      Data: Index
+    - Name: variable
+      Entry: 7
+      Data: 5|FlowReactor.FRInt, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: isCopy
+      Entry: 5
+      Data: false
+    - Name: _graph
+      Entry: 10
+      Data: 0
+    - Name: nodeOwner
+      Entry: 6
+      Data: 
+    - Name: exposedNodeName
+      Entry: 1
+      Data: 
+    - Name: exposedName
+      Entry: 1
+      Data: 
+    - Name: editExposedName
+      Entry: 5
+      Data: false
+    - Name: assignedBlackboard
+      Entry: 10
+      Data: 1
+    - Name: blackboardGuid
+      Entry: 1
+      Data: 5d7d08c1-fb6b-4e72-a00b-1df93ee50769
+    - Name: variableGuid
+      Entry: 1
+      Data: f6da13c4-8197-4a7d-a26e-c20b99cb0f80
+    - Name: useDatabox
+      Entry: 5
+      Data: false
+    - Name: databoxID
+      Entry: 1
+      Data: 
+    - Name: tableID
+      Entry: 1
+      Data: 
+    - Name: entryID
+      Entry: 1
+      Data: 
+    - Name: valueID
+      Entry: 1
+      Data: 
+    - Name: overrideVariable
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 1
+      Data: 
+    - Name: typeName
+      Entry: 1
+      Data: 
+    - Name: showError
+      Entry: 5
+      Data: false
+    - Name: sceneReferenceOnly
+      Entry: 5
+      Data: false
+    - Name: connectedNodes
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: showConnectedNodes
+      Entry: 5
+      Data: false
+    - Name: OnValueChanged
+      Entry: 6
+      Data: 
+    - Name: Value
+      Entry: 3
+      Data: 1
+    - Name: _int
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: variableAttributes
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+NodeVariableAttribute,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 8|FlowReactor.Nodes.Node+NodeVariableGroups+NodeVariableHideInNodeAttribute,
+        Assembly-CSharp
+    - Name: attributeHideInNode
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: additionalGUIHeight
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 10
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 985267301386773852}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: 6285dd74-d44a-4c35-8763-4b23c7055ab9
+    subGraphExitguid: 
+    outputNode: {fileID: -7736229117369932812}
+    endlessLoop: 0
+  guid: 93a92d1e-d203-448d-a950-36b893e0319a
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -231.6178
+    y: -74.52362
+    width: 150
+    height: 60
+  title: OnAnswerChosen
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: OnAnswerChosen
+    typeName: OnAnswerChosen
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Triggers when an answer is chosen
+    color: eventNodeColor
+    outputSlotCount: 0
+    nodeOutputs:
+    - 
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 1
+  highlightStartTime: 0
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  Index:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    nodeOwner: {fileID: 0}
+    exposedNodeName: 
+    exposedName: 
+    editExposedName: 0
+    assignedBlackboard: {fileID: 11400000, guid: e0677288c2158fa488b7f41f0c5f1aba, type: 2}
+    blackboardGuid: 5d7d08c1-fb6b-4e72-a00b-1df93ee50769
+    variableGuid: f6da13c4-8197-4a7d-a26e-c20b99cb0f80
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    showError: 0
+    sceneReferenceOnly: 0
+    connectedNodes: []
+    showConnectedNodes: 0
+    _int: 1
+--- !u!114 &1955914143812151762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b578d77570168418420eb896bea26a, type: 3}
+  m_Name: SetConversationText
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 11
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 1955914143812151762}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: d29ea7ea-3e49-44f0-a7a0-19c2ac4b829a
+    inputNode: {fileID: 5784466313765098839}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: c7659391-ed19-4d57-aee9-a6541ca8a8e4
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 231.00037
+    y: 27.000397
+    width: 150
+    height: 60
+  title: SetConversationText
+  breakpoint: 0
+  color: {r: 1, g: 0, b: 0.7019608, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: SetConversationText
+    typeName: SetConversationText
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Sets text in a selected frame
+    color: '#ff00b3'
+    outputSlotCount: 0
+    nodeOutputs:
+    - 
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 0
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  SceneFramesBlackBoard: {fileID: 11400000, guid: 5955c21b0fcb13a49be275714a719b27, type: 2}
+  _textFrame: {fileID: 0}
+  textId: 1
+  _nameFrame: {fileID: 0}
+  nameId: -1
+  _collocutorInfo: {fileID: 11400000, guid: 5e1d77f1857d9494db66954219858f2c, type: 2}
+  _sentences:
+  - Hello, {playerName}
+--- !u!114 &5784466313765098839
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a9adb2fed44cc44b8ef4b56fe3f406, type: 3}
+  m_Name: SetCollocutor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 8
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 5784466313765098839}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: d17146ed-a0c4-4f62-b956-509fd92aee58
+    inputNode: {fileID: 0}
+  - id: 
+    guid: cb3719bb-ae22-46a3-b025-33e1ad09d6ac
+    inputNode: {fileID: 0}
+  - id: 
+    guid: 6285dd74-d44a-4c35-8763-4b23c7055ab9
+    inputNode: {fileID: -7736229117369932812}
+  outputNodes:
+  - id: 
+    guid: c7659391-ed19-4d57-aee9-a6541ca8a8e4
+    subGraphExitguid: 
+    outputNode: {fileID: 1955914143812151762}
+    endlessLoop: 0
+  guid: d29ea7ea-3e49-44f0-a7a0-19c2ac4b829a
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -11.760254
+    y: 26.762543
+    width: 150
+    height: 60
+  title: SetCollocutor
+  breakpoint: 0
+  color: {r: 0.050980393, g: 1, b: 0, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: SetCollocutor
+    typeName: SetCollocutor
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Set collocutor's image in the selected frame
+    color: '#0dff00'
+    outputSlotCount: 0
+    nodeOutputs:
+    - 
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 0
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  SceneFramesBlackBoard: {fileID: 11400000, guid: 5955c21b0fcb13a49be275714a719b27, type: 2}
+  _frame: {fileID: 0}
+  id: 1
+  _collocutorInfo: {fileID: 11400000, guid: 5e1d77f1857d9494db66954219858f2c, type: 2}
+  _sprite: {fileID: 21300000, guid: 5da51fcce4afc29438e5763fd370092c, type: 3}
+  frameIsSceneObject: 1
+--- !u!114 &6065700493661325686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b578d77570168418420eb896bea26a, type: 3}
+  m_Name: SetConversationText
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 12
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 6065700493661325686}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: 1d3b7367-47ca-4479-9d39-42b66ecffe42
+    inputNode: {fileID: -3036615761527325273}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 0e7613fd-68f7-45d3-9674-b2ec06b3ec44
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 228.66711
+    y: 116.99997
+    width: 150
+    height: 60
+  title: SetConversationText
+  breakpoint: 0
+  color: {r: 1, g: 0, b: 0.7019608, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: SetConversationText
+    typeName: SetConversationText
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Sets text in a selected frame
+    color: '#ff00b3'
+    outputSlotCount: 0
+    nodeOutputs:
+    - 
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 0
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  SceneFramesBlackBoard: {fileID: 11400000, guid: 5955c21b0fcb13a49be275714a719b27, type: 2}
+  _textFrame: {fileID: 0}
+  textId: 1
+  _nameFrame: {fileID: 0}
+  nameId: -1
+  _collocutorInfo: {fileID: 11400000, guid: 96cc539d191f77c4fb3cd1d20f356841, type: 2}
+  _sentences:
+  - Hello, you beautiful thing!
+--- !u!114 &7231415243792168509
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa10967e8aeb74488c70d848cb7b588, type: 3}
+  m_Name: OnKeyInput
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 5
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 7231415243792168509}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes: []
+  outputNodes:
+  - id: Space
+    guid: 89db3e80-c472-4aec-9238-7fc2405f7710
+    subGraphExitguid: 
+    outputNode: {fileID: -1780871701345624744}
+    endlessLoop: 0
+  guid: 71a129e9-0c3c-4de0-b09c-49a26f348999
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -863.5228
+    y: -355.95282
+    width: 150
+    height: 60
+  title: OnKeyInput
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    title: OnKeyInput
+    typeName: OnKeyInput
+    name: 
+    nameSpace: FlowReactor.Nodes.Unity
+    category: Unity/Input/Events
+    description: Listen to a specific key input
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeOutputs: []
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: 0
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  key: 32
+  selectedKeyState: 0
+--- !u!114 &9134825709474394122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b578d77570168418420eb896bea26a, type: 3}
+  m_Name: SetConversationText
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nodeVariableGroups
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[FlowReactor.Nodes.Node+NodeVariableGroups,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 2|FlowReactor.Nodes.Node+NodeVariableGroups, Assembly-CSharp
+    - Name: foldout
+      Entry: 5
+      Data: false
+    - Name: variables
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node+NodeVariableGroups+Variables,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 3
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 9134825709474394122}
+  runParallel: 0
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  branchNode: {fileID: 0}
+  inputNodes:
+  - id: 
+    guid: 43bfaa4e-d52d-4d7a-b47b-907caff59ee7
+    inputNode: {fileID: -4936962234380420394}
+  - id: 
+    guid: 7c3d15d5-50e0-4dc4-ba4a-31f224ca7b7d
+    inputNode: {fileID: -751003032067344663}
+  outputNodes:
+  - id: 
+    guid: 6285dd74-d44a-4c35-8763-4b23c7055ab9
+    subGraphExitguid: 
+    outputNode: {fileID: -7736229117369932812}
+    endlessLoop: 0
+  guid: 4e151e2f-a86c-4b0b-ba0c-a1c0c3863ea8
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: -436.66534
+    y: 68.47693
+    width: 150
+    height: 60
+  title: SetConversationText
+  breakpoint: 0
+  color: {r: 1, g: 0, b: 0.7019608, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 0
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    title: SetConversationText
+    typeName: SetConversationText
+    name: 
+    nameSpace: FlowReactor.Nodes
+    category: Dialogue Management
+    description: Sets text in a selected frame
+    color: '#ff00b3'
+    outputSlotCount: 0
+    nodeOutputs:
+    - 
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  canDrag: 0
+  hasBeenAligned: 0
+  hasError: 0
+  showNodeVariables: 0
+  originalNodeWidth: 0
+  originalNodeHeight: 0
+  nodeVariablesFieldHeight: 0
+  hiddenNodeFields: 0
+  highlightStartTime: Infinity
+  highlightGraphStartTime: 0
+  lastZoomCoordsOrigin: {x: -0, y: 1}
+  highlightTime: 0.5
+  SceneFramesBlackBoard: {fileID: 11400000, guid: 5955c21b0fcb13a49be275714a719b27, type: 2}
+  _textFrame: {fileID: 0}
+  textId: 1
+  _nameFrame: {fileID: 0}
+  nameId: -1
+  _collocutorInfo: {fileID: 0}
+  _sentences:
+  - Hello, {playerName}! My name is Georgia
+  - I will help you to create dialogue system
+  - Who do you want to meet next?

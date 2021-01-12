@@ -1,0 +1,56 @@
+From: 
+https://flowreactor.io/documentation/3-getting-started/
+
+Head over to the official documentation for more information:
+https://flowreactor.io/documentation
+
+Forum:
+https://hub.flowreactor.io
+
+Discord:
+https://discord.gg/a5uf3nM
+
+
+-----------------
+Create New Graph
+-----------------
+
+1. 
+Simply right click in your project view and select: Create / FlowReactor / New Graph
+
+2.
+You can now open the graph by a double click on the file or by clicking on the edit button in the inspector.
+
+
+--------
+Add Node
+--------
+
+1.
+By default FlowReactor adds an OnStart node to a newly created graph.
+Click and drag on the output of the OnStart node, release your mouse somewhere on the empty canvas to open up the node panel.
+
+2.
+Now search for the DebugLog node and add it to the canvas.
+The two nodes has been connected automatically.
+
+3.
+Finally you can now add a text to the Debug.Log node. For this simply select the Debug.Log node, goto the node inspector and add a text to the log variable field.
+
+
+---------
+Run Graph
+---------
+
+1.
+To run a graph in the scene we need to add it to a gameobject.
+
+2a.
+Create a new gameobject in your empty scene, then select your newly created graph and drag it onto the gameobject in the hierarchy view (not inspector). 
+FlowReactor automatically adds the FlowReactorComponent to the gameobject with its assigned graph.
+
+2b.
+Alternatively you can add the FlowReactorComponent script to the game object and assign the graph to the empty graph field. 
+
+3.
+You can now run the scene and you should see your log message in the unity console.

@@ -1,0 +1,3564 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9021527796353884762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe047766113121409fd485a64aa53d8, type: 3}
+  m_Name: Comment
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 15
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -9021527796353884762}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes: []
+  guid: 65e45454-7ef5-4c98-9e08-6c552237d5e3
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 1099.0083
+    y: 604.2307
+    width: 248.5
+    height: 93
+  title: Comment
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0.7788917, g: 0.33282015, b: 0.39973706, a: 1}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 1
+  nodeData:
+    name: Comment
+    category: Internal
+    description: Single tween animations can be chained together with the DOSequence
+      node.
+    color: actionNodeColor
+    outputSlotCount: 0
+    nodeType: 6
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 0
+--- !u!114 &-6851705672802562422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b74eb97b7d7d5b43bcd225718c7f28e, type: 3}
+  m_Name: OnUIEventTrigger
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 2
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -6851705672802562422}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: fec7f0cbaabc9d240b56239ba48c3b31, type: 3}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: 4b742a31-f7a5-448a-a9d4-00cd92eb5489
+    subGraphExitguid: 
+    outputNode: {fileID: 4966490851066734711}
+    endlessLoop: 0
+  guid: cecf251d-be8f-4740-8a73-c37803961147
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 670.29376
+    y: 394.02383
+    width: 150
+    height: 60
+  title: OnUIEventTrigger
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    name: OnUIEventTrigger
+    category: Unity/UI/Events
+    description: On UI Trigger Event
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48180.43655620298
+  uiObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+      type: 2}
+    blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+    variableGuid: 5f636c5b-a0fa-43c4-9227-597dad8a1580
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _et: {fileID: 0}
+  triggerType: 4
+--- !u!114 &-3262963416861588370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b3c7c729b5a11459b508cf8e537844, type: 3}
+  m_Name: Group
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 10
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -3262963416861588370}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes: []
+  guid: b983550f-0944-42b6-9b8b-e4029ef6d79d
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 20.865295
+    y: 65.16716
+    width: 525.0714
+    height: 320.57138
+  title: Button Tween
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0.767055, g: 0.7161063, b: 0.2869932, a: 1}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 1
+  nodeData:
+    name: Group
+    category: Internal
+    description: Group
+    color: actionNodeColor
+    outputSlotCount: 0
+    nodeType: 2
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 0
+  ok: 0
+  groupTitle: Button Tween
+  outputStateNodes: []
+  inputStateNodes: []
+  nodeChilds:
+  - node: {fileID: 2586807927779986636}
+    relativePos: {x: 81.99988, y: 71}
+  - node: {fileID: 5228802513226588880}
+    relativePos: {x: 298.9999, y: 70}
+  - node: {fileID: 723502772063761837}
+    relativePos: {x: 74.999756, y: 179.99963}
+  - node: {fileID: -2163853523204522837}
+    relativePos: {x: 304.00003, y: 181.99963}
+--- !u!114 &-3129694403316607527
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b3bb5897775c94d949ce61e265031e, type: 3}
+  m_Name: EventListener
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 01010a00000070006100720061006d00650074006500720073002f00000000018500000046006c006f007700520065006100630074006f0072002e004f00720064006500720065006400440069006300740069006f006e006100720079002e004f00720064006500720065006400440069006300740069006f006e00610072007900600032005b005b00530079007300740065006d002e0047007500690064002c0020006d00730063006f0072006c00690062005d002c005b0046006c006f007700520065006100630074006f0072002e00460052005600610072006900610062006c0065002c00200041007300730065006d0062006c0079002d004300530068006100720070005d005d002c00200041007300730065006d0062006c0079002d00430053006800610072007000000000000600000000000000000705
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 3
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -3129694403316607527}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 9f388bf525dcf8a4d93aed97efaebbf5, type: 3}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: 7ee0c3e1-d17d-49b8-9d5e-aacf39ddb459
+    subGraphExitguid: 
+    outputNode: {fileID: -1466713256113805084}
+    endlessLoop: 0
+  guid: c4d5382b-8191-4cc1-b798-314f13e35a18
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 665.72235
+    y: 259.5956
+    width: 150
+    height: 60
+  title: EventListener
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: EventListener
+    category: FlowReactor/Events
+    description: Listen to FlowReactor event
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48180.83171840298
+  eventBoard: {fileID: 11400000, guid: c55a98f2585c6f84486fd88e49ebf408, type: 2}
+  selectedEB: 0
+  lastSelectedEB: 0
+  selectedEventID: 19d68915-1f7b-47eb-ae81-b55c8fa77cd0
+  lastSelectedEventID: 19d68915-1f7b-47eb-ae81-b55c8fa77cd0
+  selectedEventIDInt: 0
+--- !u!114 &-2163853523204522837
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f88fb94973e3e741a7436ccf97c922d, type: 3}
+  m_Name: DOSequence
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 9
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -2163853523204522837}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 558529e9042abd646a6cb8ead6de9bd6, type: 3}
+  inputNodes:
+  - id: 
+    guid: fb079054-0029-49fc-9937-fbfd8c0ff9cd
+    inputNode: {fileID: 723502772063761837}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 0e2475c4-c421-4497-ab69-f2fe581ff66e
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 324.8653
+    y: 247.16678
+    width: 155
+    height: 60
+  title: DOSequence
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: DOSequence
+    category: DOTween
+    description: DOSequence
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48178.54069020298
+  tweenSequence:
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: 1f7db4ff-24d9-4551-a636-9eed24647408
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 0
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 14
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 31
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 0, y: 0, z: 0}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 160, y: 30}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.2
+    insertTime: 0
+  selectedEB: 0
+  selectedEventID: 
+  selectedEventIDInt: 0
+  useOnTweenCompleteEvent: 0
+  eventBoard: {fileID: 0}
+  tweenID: 
+--- !u!114 &-1466713256113805084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb233642356038944ae1cd9c027a1333, type: 3}
+  m_Name: SetActive
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 5
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -1466713256113805084}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 8790eb1e015498449b2ac0937138c0f0, type: 3}
+  inputNodes:
+  - id: 
+    guid: c4d5382b-8191-4cc1-b798-314f13e35a18
+    inputNode: {fileID: -3129694403316607527}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 7ee0c3e1-d17d-49b8-9d5e-aacf39ddb459
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 887.722
+    y: 259.5955
+    width: 150
+    height: 60
+  title: SetActive
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: SetActive
+    category: Unity/GameObject
+    description: activate/deactive GameObject
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48180.83171860298
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+      type: 2}
+    blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+    variableGuid: 66097ac2-d132-4619-b936-74411c13e810
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  active:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 0
+--- !u!114 &-1142619466812080731
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f88fb94973e3e741a7436ccf97c922d, type: 3}
+  m_Name: DOSequence
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 16
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: -1142619466812080731}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 558529e9042abd646a6cb8ead6de9bd6, type: 3}
+  inputNodes:
+  - id: 
+    guid: c3efb072-c3be-4b0b-8e4f-a65993668396
+    inputNode: {fileID: 4251532458166504385}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 1e625453-2e5a-454d-a71b-5c7b06aa6803
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 1104.937
+    y: 142.77802
+    width: 155
+    height: 60
+  title: DOSequence
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: DOSequence
+    category: DOTween
+    description: DOSequence
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48178.52715200298
+  tweenSequence:
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: a00d7501-4c5e-4d04-b342-7cd03850a230
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 0
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 14
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 1
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 0, y: 0, z: 0}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 650, y: 100}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.2
+    insertTime: 0
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: a00d7501-4c5e-4d04-b342-7cd03850a230
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 0
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 14
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 1
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 0, y: 0, z: 0}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 650, y: 450}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.2
+    insertTime: 0
+  selectedEB: 0
+  selectedEventID: 7aa1b85f-a534-4647-b616-e2645ab5a462
+  selectedEventIDInt: 1
+  useOnTweenCompleteEvent: 1
+  eventBoard: {fileID: 11400000, guid: c55a98f2585c6f84486fd88e49ebf408, type: 2}
+  tweenID: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb3a9483b762924a80685f081d09d58, type: 3}
+  m_Name: UIGraph2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 01011500000066006c006f007700520065006100630074006f00720043006f006d0070006f006e0065006e00740073002f00000000017f000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e00440069006300740069006f006e00610072007900600032005b005b00530079007300740065006d002e0049006e007400330032002c0020006d00730063006f0072006c00690062005d002c005b0046006c006f007700520065006100630074006f0072002e0046006c006f007700520065006100630074006f00720043006f006d0070006f006e0065006e0074002c00200041007300730065006d0062006c0079002d004300530068006100720070005d005d002c0020006d00730063006f0072006c00690062000000000001010800000063006f006d00700061007200650072002f010000000158000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e00470065006e00650072006900630045007100750061006c0069007400790043006f006d0070006100720065007200600031005b005b00530079007300740065006d002e0049006e007400330032002c0020006d00730063006f0072006c00690062005d005d002c0020006d00730063006f0072006c00690062000100000005060100000000000000042e17010200000024006b004c5d00000b0102000000240076000000000005070501010b00000062006c00610063006b0062006f0061007200640073002f02000000017b000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e00440069006300740069006f006e00610072007900600032005b005b00530079007300740065006d002e0047007500690064002c0020006d00730063006f0072006c00690062005d002c005b0046006c006f007700520065006100630074006f0072002e00470072006100700068002b0042006c00610063006b0062006f0061007200640073002c00200041007300730065006d0062006c0079002d004300530068006100720070005d005d002c0020006d00730063006f0072006c00690062000200000001010800000063006f006d00700061007200650072002f030000000157000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e00470065006e00650072006900630045007100750061006c0069007400790043006f006d0070006100720065007200600031005b005b00530079007300740065006d002e0047007500690064002c0020006d00730063006f0072006c00690062005d005d002c0020006d00730063006f0072006c00690062000300000005060100000000000000042e29010200000024006b00ece8ad7cee153a43ab22b1c132b1fab8010102000000240076002f04000000012e00000046006c006f007700520065006100630074006f0072002e00470072006100700068002b0042006c00610063006b0062006f0061007200640073002c00200041007300730065006d0062006c0079002d00430053006800610072007000040000000b010a00000062006c00610063006b0062006f00610072006400010000002b010700000066006f006c0064006f0075007400010b011000000062006c00610063006b0062006f0061007200640045006400690074006f007200020000000505070501010b0000006500760065006e00740062006f0061007200640073002f05000000017b000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e00440069006300740069006f006e00610072007900600032005b005b00530079007300740065006d002e0047007500690064002c0020006d00730063006f0072006c00690062005d002c005b0046006c006f007700520065006100630074006f0072002e00470072006100700068002b004500760065006e00740062006f0061007200640073002c00200041007300730065006d0062006c0079002d004300530068006100720070005d005d002c0020006d00730063006f0072006c00690062000500000009010800000063006f006d007000610072006500720003000000060100000000000000042e29010200000024006b00cd8898586732e84fae1877b0b515909d010102000000240076002f06000000012e00000046006c006f007700520065006100630074006f0072002e00470072006100700068002b004500760065006e00740062006f0061007200640073002c00200041007300730065006d0062006c0079002d00430053006800610072007000060000000b010a0000006500760065006e00740062006f00610072006400030000002b010700000066006f006c0064006f0075007400010b01100000006500760065006e00740062006f0061007200640045006400690074006f007200040000000505070501010d000000730065006c00650063007400650064004e006f006400650073002f070000000175000000530079007300740065006d002e0043006f006c006c0065006300740069006f006e0073002e00470065006e0065007200690063002e00440069006300740069006f006e00610072007900600032005b005b00530079007300740065006d002e0049006e007400330032002c0020006d00730063006f0072006c00690062005d002c005b0046006c006f007700520065006100630074006f0072002e004e006f006400650073002e004e006f00640065002c00200041007300730065006d0062006c0079002d004300530068006100720070005d005d002c0020006d00730063006f0072006c00690062000700000009010800000063006f006d0070006100720065007200010000000600000000000000000705
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: c55a98f2585c6f84486fd88e49ebf408, type: 2}
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isActive: 1
+  isRoot: 1
+  isCopy: 0
+  rootGraph: {fileID: 11400000}
+  subGraphNode: {fileID: 0}
+  subGraphNodeInstance: {fileID: 0}
+  nodes:
+  - {fileID: 7485569432573469277}
+  - {fileID: 4966490851066734711}
+  - {fileID: -6851705672802562422}
+  - {fileID: -3129694403316607527}
+  - {fileID: 4251532458166504385}
+  - {fileID: -1466713256113805084}
+  - {fileID: 2586807927779986636}
+  - {fileID: 5228802513226588880}
+  - {fileID: 723502772063761837}
+  - {fileID: -2163853523204522837}
+  - {fileID: -3262963416861588370}
+  - {fileID: 1407389548294710347}
+  - {fileID: 3334415461411157606}
+  - {fileID: 5954817791018360798}
+  - {fileID: 1042983346921120815}
+  - {fileID: -9021527796353884762}
+  - {fileID: -1142619466812080731}
+  tmpNodes: []
+  subGraphs: []
+  zoomCoordsOrigin: {x: -4, y: -0}
+  zoomFactor: 1
+  inspectorWidth: 400
+  tmpInspectorWidth: 0
+  showInspector: 0
+  isMouseOverNode: 0
+  mouseDownOnInspector: 0
+  selectedNode: {fileID: -6851705672802562422}
+  currentNode: {fileID: 0}
+  selectedNodeIndex: 2
+  lastSelectedNodeIndex: -1
+  drawModeOn: 0
+  selectionBoxDragging: 0
+  isNodeDragging: 0
+  highlightHandleIndex: 0
+  minimapSize: {x: 170, y: 100}
+  showMinimap: 0
+  dragMinimap: 0
+  resizeMinimap: 0
+  minimapMinSize: {x: 170, y: 100}
+  foldout: 1
+  globalMouseEvents: 1
+  globalMouseButton: 0
+  nodeSelectionPanelOpen: 0
+  dragNodeFromNodeMenu: 0
+  lastSelectedOutput: 0
+  nodeConnectPoint: {x: 393.35687, y: 120.53198}
+  mouseClickInGroupNode: 0
+  parentLevels:
+  - name: UIGraph2
+    graph: {fileID: 11400000}
+  currentGraph: {fileID: 11400000}
+--- !u!114 &723502772063761837
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b74eb97b7d7d5b43bcd225718c7f28e, type: 3}
+  m_Name: OnUIEventTrigger
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 8
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 723502772063761837}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: fec7f0cbaabc9d240b56239ba48c3b31, type: 3}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: 0e2475c4-c421-4497-ab69-f2fe581ff66e
+    subGraphExitguid: 
+    outputNode: {fileID: -2163853523204522837}
+    endlessLoop: 0
+  guid: fb079054-0029-49fc-9937-fbfd8c0ff9cd
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 95.86502
+    y: 245.16681
+    width: 150
+    height: 60
+  title: OnUIEventTrigger
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    name: OnUIEventTrigger
+    category: Unity/UI/Events
+    description: On UI Trigger Event
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48178.54069000298
+  uiObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+      type: 2}
+    blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+    variableGuid: 008e04ec-e8c7-46e7-a1c5-f0ffd57e6818
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _et: {fileID: 0}
+  triggerType: 1
+--- !u!114 &1042983346921120815
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b3c7c729b5a11459b508cf8e537844, type: 3}
+  m_Name: Group
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 14
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 1042983346921120815}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes: []
+  guid: c66e4c03-84fc-4582-825d-1a1b114ec3a7
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 604.00824
+    y: 547.2307
+    width: 810
+    height: 221
+  title: Text Animation
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0.76966524, g: 0.28817225, b: 0.31022885, a: 1}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 1
+  nodeData:
+    name: Group
+    category: Internal
+    description: Group
+    color: actionNodeColor
+    outputSlotCount: 0
+    nodeType: 2
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 0
+  ok: 0
+  groupTitle: Text Animation
+  outputStateNodes: []
+  inputStateNodes: []
+  nodeChilds:
+  - node: {fileID: 3334415461411157606}
+    relativePos: {x: 278.99988, y: 71}
+  - node: {fileID: 5954817791018360798}
+    relativePos: {x: 73.999985, y: 71}
+  - node: {fileID: -9021527796353884762}
+    relativePos: {x: 494.99994, y: 57}
+--- !u!114 &1407389548294710347
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b3c7c729b5a11459b508cf8e537844, type: 3}
+  m_Name: Group
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 11
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 1407389548294710347}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 0}
+  inputNodes: []
+  outputNodes: []
+  guid: 01e6613e-c117-4008-b98e-ed5c939e9dcb
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 590.4364
+    y: 72.30998
+    width: 757.572
+    height: 445.28577
+  title: Panel Tween
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0.33891064, g: 0.6037736, b: 0.3899513, a: 1}
+  hideInput: 1
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 1
+  nodeData:
+    name: Group
+    category: Internal
+    description: Group
+    color: actionNodeColor
+    outputSlotCount: 0
+    nodeType: 2
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 0
+  ok: 0
+  groupTitle: Panel Tween
+  outputStateNodes: []
+  inputStateNodes: []
+  nodeChilds:
+  - node: {fileID: 7485569432573469277}
+    relativePos: {x: 75, y: 71}
+  - node: {fileID: 4966490851066734711}
+    relativePos: {x: 296.85748, y: 322.71384}
+  - node: {fileID: -6851705672802562422}
+    relativePos: {x: 79.8573, y: 321.71396}
+  - node: {fileID: -3129694403316607527}
+    relativePos: {x: 75.28592, y: 187.28563}
+  - node: {fileID: 4251532458166504385}
+    relativePos: {x: 297.85712, y: 70.99999}
+  - node: {fileID: -1466713256113805084}
+    relativePos: {x: 297.28558, y: 187.2855}
+  - node: {fileID: -1142619466812080731}
+    relativePos: {x: 514.50037, y: 70.46802}
+--- !u!114 &2586807927779986636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b74eb97b7d7d5b43bcd225718c7f28e, type: 3}
+  m_Name: OnUIEventTrigger
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 6
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 2586807927779986636}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: fec7f0cbaabc9d240b56239ba48c3b31, type: 3}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: ecc8decd-4c94-44a8-a696-03bada02cee0
+    subGraphExitguid: 
+    outputNode: {fileID: 5228802513226588880}
+    endlessLoop: 0
+  guid: 205b8c12-c277-48a5-8d90-994f599b1680
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 102.86514
+    y: 136.16718
+    width: 150
+    height: 60
+  title: OnUIEventTrigger
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    name: OnUIEventTrigger
+    category: Unity/UI/Events
+    description: On UI Trigger Event
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48178.11265230298
+  uiObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+      type: 2}
+    blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+    variableGuid: 008e04ec-e8c7-46e7-a1c5-f0ffd57e6818
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _et: {fileID: 0}
+  triggerType: 0
+--- !u!114 &3334415461411157606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f88fb94973e3e741a7436ccf97c922d, type: 3}
+  m_Name: DOSequence
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 12
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 3334415461411157606}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 558529e9042abd646a6cb8ead6de9bd6, type: 3}
+  inputNodes:
+  - id: 
+    guid: d00b9bc4-0fa4-49ee-b352-9cd660bb6950
+    inputNode: {fileID: 5954817791018360798}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 77a537a0-9b53-4f2f-801c-c718881e3bef
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 883.0081
+    y: 618.2307
+    width: 155
+    height: 60
+  title: DOSequence
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: DOSequence
+    category: DOTween
+    description: DOSequence
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48178.91874130298
+  tweenSequence:
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: 3b98f8ae-1765-4339-a42c-fd2b95e80986
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 0
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 12
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 1
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 0, y: 0, z: 180}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 0, y: 0}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.5
+    insertTime: 0
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: 3b98f8ae-1765-4339-a42c-fd2b95e80986
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 0
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 0
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 1
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 2, y: 2, z: 1}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 0, y: 0}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.5
+    insertTime: 0
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: 3b98f8ae-1765-4339-a42c-fd2b95e80986
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 0
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 0
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 1
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 1, y: 1, z: 1}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 0, y: 0}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.5
+    insertTime: 0
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: 3b98f8ae-1765-4339-a42c-fd2b95e80986
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 1
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 12
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 1
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 0, y: 0, z: 0}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 0, y: 0}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.5
+    insertTime: 1
+  selectedEB: 0
+  selectedEventID: 
+  selectedEventIDInt: 0
+  useOnTweenCompleteEvent: 0
+  eventBoard: {fileID: 0}
+  tweenID: 
+--- !u!114 &4251532458166504385
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb233642356038944ae1cd9c027a1333, type: 3}
+  m_Name: SetActive
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 4
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 4251532458166504385}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 8790eb1e015498449b2ac0937138c0f0, type: 3}
+  inputNodes:
+  - id: 
+    guid: 4219abf7-62a5-4b27-bb8c-782af2743637
+    inputNode: {fileID: 7485569432573469277}
+  outputNodes:
+  - id: 
+    guid: 1e625453-2e5a-454d-a71b-5c7b06aa6803
+    subGraphExitguid: 
+    outputNode: {fileID: -1142619466812080731}
+    endlessLoop: 0
+  guid: c3efb072-c3be-4b0b-8e4f-a65993668396
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 888.2935
+    y: 143.31
+    width: 150
+    height: 60
+  title: SetActive
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 1
+  disableVariableInspector: 0
+  nodeData:
+    name: SetActive
+    category: Unity/GameObject
+    description: activate/deactive GameObject
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48178.52715180298
+  gameObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+      type: 2}
+    blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+    variableGuid: 66097ac2-d132-4619-b936-74411c13e810
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _gameObject: {fileID: 0}
+  active:
+    type: 0
+    isCopy: 0
+    _graph: {fileID: 0}
+    assignedBlackboard: {fileID: 0}
+    blackboardGuid: 
+    variableGuid: 
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _bool: 1
+--- !u!114 &4966490851066734711
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f88fb94973e3e741a7436ccf97c922d, type: 3}
+  m_Name: DOSequence
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 1
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 4966490851066734711}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 558529e9042abd646a6cb8ead6de9bd6, type: 3}
+  inputNodes:
+  - id: 
+    guid: cecf251d-be8f-4740-8a73-c37803961147
+    inputNode: {fileID: -6851705672802562422}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: 4b742a31-f7a5-448a-a9d4-00cd92eb5489
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 887.2939
+    y: 395.0237
+    width: 155
+    height: 60
+  title: DOSequence
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: DOSequence
+    category: DOTween
+    description: DOSequence
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48180.43655630298
+  tweenSequence:
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: a00d7501-4c5e-4d04-b342-7cd03850a230
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 0
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 14
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 1
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 0, y: 0, z: 0}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 650, y: 100}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.2
+    insertTime: 0
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: a00d7501-4c5e-4d04-b342-7cd03850a230
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 0
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 14
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 1
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 0, y: 0, z: 0}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 100, y: 100}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.2
+    insertTime: 0
+  selectedEB: 0
+  selectedEventID: 19d68915-1f7b-47eb-ae81-b55c8fa77cd0
+  selectedEventIDInt: 0
+  useOnTweenCompleteEvent: 1
+  eventBoard: {fileID: 11400000, guid: c55a98f2585c6f84486fd88e49ebf408, type: 2}
+  tweenID: 
+--- !u!114 &5228802513226588880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f88fb94973e3e741a7436ccf97c922d, type: 3}
+  m_Name: DOSequence
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 7
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 5228802513226588880}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 558529e9042abd646a6cb8ead6de9bd6, type: 3}
+  inputNodes:
+  - id: 
+    guid: 205b8c12-c277-48a5-8d90-994f599b1680
+    inputNode: {fileID: 2586807927779986636}
+  outputNodes:
+  - id: 
+    guid: 
+    subGraphExitguid: 
+    outputNode: {fileID: 0}
+    endlessLoop: 0
+  guid: ecc8decd-4c94-44a8-a696-03bada02cee0
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 315.5794
+    y: 135.16718
+    width: 155
+    height: 60
+  title: DOSequence
+  breakpoint: 0
+  color: {r: 0.49019608, g: 0.74509805, b: 0.627451, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: DOSequence
+    category: DOTween
+    description: DOSequence
+    color: actionNodeColor
+    outputSlotCount: 1
+    nodeType: 0
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48178.112652502976
+  tweenSequence:
+  - floatValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    intValue:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    image:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _image: {fileID: 0}
+    rectTransform:
+      type: 1
+      isCopy: 0
+      _graph: {fileID: 11400000}
+      assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+        type: 2}
+      blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+      variableGuid: 1f7db4ff-24d9-4551-a636-9eed24647408
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _rectTransform: {fileID: 0}
+    canvasGroup:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _canvasGroup: {fileID: 0}
+    gameObject:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _gameObject: {fileID: 0}
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+    tweenState: 0
+    tweenObject: 3
+    tweenMethodVariables: 0
+    tweenMethodTransform: 14
+    tweenMethodImage: 0
+    tweenMethodCanvas: 0
+    easeType: 4
+    targetFloat:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _float: 0
+    targetInt:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _int: 0
+    target:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector3: {x: 0, y: 0, z: 0}
+    targetVector2:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _vector2: {x: 200, y: 40}
+    targetColor:
+      type: 0
+      isCopy: 0
+      _graph: {fileID: 0}
+      assignedBlackboard: {fileID: 0}
+      blackboardGuid: 
+      variableGuid: 
+      useDatabox: 0
+      databoxID: 
+      tableID: 
+      entryID: 
+      valueID: 
+      overrideVariable: 0
+      name: 
+      typeName: 
+      connectedNodes: []
+      showConnectedNodes: 0
+      _color: {r: 0, g: 0, b: 0, a: 1}
+    duration: 0.2
+    insertTime: 0
+  selectedEB: 0
+  selectedEventID: 
+  selectedEventIDInt: 0
+  useOnTweenCompleteEvent: 0
+  eventBoard: {fileID: 0}
+  tweenID: 
+--- !u!114 &5954817791018360798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b3bb5897775c94d949ce61e265031e, type: 3}
+  m_Name: EventListener
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 01010a00000070006100720061006d00650074006500720073002f00000000018500000046006c006f007700520065006100630074006f0072002e004f00720064006500720065006400440069006300740069006f006e006100720079002e004f00720064006500720065006400440069006300740069006f006e00610072007900600032005b005b00530079007300740065006d002e0047007500690064002c0020006d00730063006f0072006c00690062005d002c005b0046006c006f007700520065006100630074006f0072002e00460052005600610072006900610062006c0065002c00200041007300730065006d0062006c0079002d004300530068006100720070005d005d002c00200041007300730065006d0062006c0079002d00430053006800610072007000000000000600000000000000000705
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 13
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 5954817791018360798}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: 9f388bf525dcf8a4d93aed97efaebbf5, type: 3}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: 77a537a0-9b53-4f2f-801c-c718881e3bef
+    subGraphExitguid: 
+    outputNode: {fileID: 3334415461411157606}
+    endlessLoop: 0
+  guid: d00b9bc4-0fa4-49ee-b352-9cd660bb6950
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 678.00824
+    y: 618.2307
+    width: 150
+    height: 60
+  title: EventListener
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 1
+  nodeData:
+    name: EventListener
+    category: FlowReactor/Events
+    description: Listen to FlowReactor event
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48178.91874120298
+  eventBoard: {fileID: 11400000, guid: c55a98f2585c6f84486fd88e49ebf408, type: 2}
+  selectedEB: 0
+  lastSelectedEB: 0
+  selectedEventID: 7aa1b85f-a534-4647-b616-e2645ab5a462
+  lastSelectedEventID: 7aa1b85f-a534-4647-b616-e2645ab5a462
+  selectedEventIDInt: 1
+--- !u!114 &7485569432573469277
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b74eb97b7d7d5b43bcd225718c7f28e, type: 3}
+  m_Name: OnUIEventTrigger
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  isCopy: 0
+  graphPath: 
+  nodeListIndex: 0
+  editorSkin: {fileID: 11400000, guid: b135397cfc44afc49983c20f6ef3cd30, type: 2}
+  node: {fileID: 7485569432573469277}
+  rootGraph: {fileID: 11400000}
+  graphOwner: {fileID: 11400000}
+  icon: {fileID: 2800000, guid: fec7f0cbaabc9d240b56239ba48c3b31, type: 3}
+  inputNodes: []
+  outputNodes:
+  - id: 
+    guid: c3efb072-c3be-4b0b-8e4f-a65993668396
+    subGraphExitguid: 
+    outputNode: {fileID: 4251532458166504385}
+    endlessLoop: 0
+  guid: 4219abf7-62a5-4b27-bb8c-782af2743637
+  bypass: 0
+  bypassOutput: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 665.43646
+    y: 143.31
+    width: 150
+    height: 60
+  title: OnUIEventTrigger
+  breakpoint: 0
+  color: {r: 0.47058824, g: 0.7647059, b: 1, a: 1}
+  groupColor: {r: 0, g: 0, b: 0, a: 0}
+  hideInput: 0
+  guiDisabled: 0
+  disableDefaultInspector: 1
+  disableDrawCustomInspector: 0
+  disableVariableInspector: 0
+  nodeData:
+    name: OnUIEventTrigger
+    category: Unity/UI/Events
+    description: On UI Trigger Event
+    color: eventNodeColor
+    outputSlotCount: 1
+    nodeType: 1
+  isMouseOver: 0
+  isOverOutput: 0
+  hasBeenAligned: 0
+  hasError: 0
+  highlightGraphStartTime: 48178.52699460298
+  uiObject:
+    type: 1
+    isCopy: 0
+    _graph: {fileID: 11400000}
+    assignedBlackboard: {fileID: 11400000, guid: dd719700c8ae09846a5accc8c653ce3c,
+      type: 2}
+    blackboardGuid: 7cade8ec-15ee-433a-ab22-b1c132b1fab8
+    variableGuid: 008e04ec-e8c7-46e7-a1c5-f0ffd57e6818
+    useDatabox: 0
+    databoxID: 
+    tableID: 
+    entryID: 
+    valueID: 
+    overrideVariable: 0
+    name: 
+    typeName: 
+    connectedNodes: []
+    showConnectedNodes: 0
+    _et: {fileID: 0}
+  triggerType: 4

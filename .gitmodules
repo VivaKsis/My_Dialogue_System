@@ -1,0 +1,21 @@
+[submodule "Assets/{#}Packages/unity-pixli-miscellaneous"]
+	path = "Assets/{#}Packages/unity-pixli-miscellaneous"
+	url = git@github.com:Rinware/unity-pixli-miscellaneous.git
+[submodule "Assets/{#}Packages/unity-pixli-audio-system"]
+	path = "Assets/{#}Packages/unity-pixli-audio-system"
+	url = git@github.com:Rinware/unity-pixli-audio-system.git
+[submodule "Assets/{#}Packages/unity-pixli-object-pooling-system"]
+	path = "Assets/{#}Packages/unity-pixli-object-pooling-system"
+	url = git@github.com:Rinware/unity-pixli-object-pooling-system.git
+[submodule "Assets/{#}Packages/unity-pixli-ui-view-system"]
+	path = "Assets/{#}Packages/unity-pixli-ui-view-system"
+	url = git@github.com:Rinware/unity-pixli-ui-view-system.git
+[submodule "Assets/{#}Packages/unity-pixli-input-system"]
+	path = "Assets/{#}Packages/unity-pixli-input-system"
+	url = git@github.com:Rinware/unity-pixli-input-system.git
+[submodule "Assets/{#}Packages/unity-pixli-localization-system"]
+	path = "Assets/{#}Packages/unity-pixli-localization-system"
+	url = git@github.com:Rinware/unity-pixli-localization-system.git
+[submodule "Assets/{#}Packages/xNode"]
+	path = "Assets/{#}Packages/xNode"
+	url = git@github.com:Siccity/xNode.git

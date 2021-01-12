@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e0f7c2382e020489edddfdf863b7af, type: 3}
+  m_Name: EventBoard
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 4533495612643375428, guid: 8bd4611d66fa0c04f920db817e9472d2, type: 2}
+    - {fileID: 2601460195170640163, guid: 8bd4611d66fa0c04f920db817e9472d2, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: events
+      Entry: 7
+      Data: 0|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.EventSystem.EventBoard+Event,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.EventSystem.EventBoard+Event,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: adcc30c6f5bf428da73c1c9474c1e3f9
+    - Name: 
+      Entry: 7
+      Data: 1|FlowReactor.EventSystem.EventBoard+Event, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: PanelOpen
+    - Name: foldout
+      Entry: 5
+      Data: true
+    - Name: connectedNodeFoldout
+      Entry: 5
+      Data: true
+    - Name: eventComponentListeners
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[FlowReactor.EventSystem.FlowReactorEventListener,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parameters
+      Entry: 7
+      Data: 3|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: callEventNodes
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: listenerEventNodes
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.EventSystem.EventBoard+Event,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: ba0b03bc7a774396af2948c88a270aec
+    - Name: 
+      Entry: 7
+      Data: 6|FlowReactor.EventSystem.EventBoard+Event, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: PanelClosed
+    - Name: foldout
+      Entry: 5
+      Data: true
+    - Name: connectedNodeFoldout
+      Entry: 5
+      Data: false
+    - Name: eventComponentListeners
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[FlowReactor.EventSystem.FlowReactorEventListener,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parameters
+      Entry: 7
+      Data: 8|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: callEventNodes
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: listenerEventNodes
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: System.Collections.Generic.KeyValuePair`2[[System.Guid, mscorlib],[FlowReactor.EventSystem.EventBoard+Event,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 2
+      Data: 2f730b96c52f4054b855512b2e308f1e
+    - Name: 
+      Entry: 7
+      Data: 11|FlowReactor.EventSystem.EventBoard+Event, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: NewEvent
+    - Name: foldout
+      Entry: 5
+      Data: true
+    - Name: connectedNodeFoldout
+      Entry: 5
+      Data: false
+    - Name: eventComponentListeners
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[FlowReactor.EventSystem.FlowReactorEventListener,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parameters
+      Entry: 7
+      Data: 13|FlowReactor.OrderedDictionary.OrderedDictionary`2[[System.Guid, mscorlib],[FlowReactor.FRVariable,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: callEventNodes
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: listenerEventNodes
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[FlowReactor.Nodes.Node, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

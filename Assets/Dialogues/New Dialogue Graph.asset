@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8442624731111982951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b837207576a73ff4e975ba46c1f2181f, type: 3}
+  m_Name: Set Background
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -536, y: 104}
+  ports:
+    keys:
+    - input
+    - sequel
+    values:
+    - _fieldName: input
+      _node: {fileID: -8442624731111982951}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sequel
+      _node: {fileID: -8442624731111982951}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -1348677028026741569}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  sequel: {fileID: 0}
+  _sprite: {fileID: 21300000, guid: 332b94bce635d2944919d63968b12613, type: 3}
+--- !u!114 &-5199499371434184619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f654649a8be3c34b9ba52b50ef7777c, type: 3}
+  m_Name: Set Collocutor
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1064, y: 392}
+  ports:
+    keys:
+    - input
+    - sequel
+    values:
+    - _fieldName: input
+      _node: {fileID: -5199499371434184619}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: _answers 1
+        node: {fileID: 1367159283339194981}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sequel
+      _node: {fileID: -5199499371434184619}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -1023234289699922027}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  sequel: {fileID: 0}
+  _frame: {fileID: 2209958585961708533, guid: f511de01ad7451745b2d7940f51f0caa, type: 3}
+  _collocutorInfo: {fileID: 11400000, guid: 96cc539d191f77c4fb3cd1d20f356841, type: 2}
+  _sprite: {fileID: 21300000, guid: a2b355e5a61033141a7c848570278370, type: 3}
+--- !u!114 &-5020757119192562457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f654649a8be3c34b9ba52b50ef7777c, type: 3}
+  m_Name: Set Collocutor
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1064, y: -152}
+  ports:
+    keys:
+    - input
+    - sequel
+    values:
+    - _fieldName: input
+      _node: {fileID: -5020757119192562457}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: _answers 0
+        node: {fileID: 1367159283339194981}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sequel
+      _node: {fileID: -5020757119192562457}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6888877982582942220}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  sequel: {fileID: 0}
+  _frame: {fileID: 2209958585961708533, guid: f511de01ad7451745b2d7940f51f0caa, type: 3}
+  _collocutorInfo: {fileID: 11400000, guid: 5e1d77f1857d9494db66954219858f2c, type: 2}
+  _sprite: {fileID: 21300000, guid: 5da51fcce4afc29438e5763fd370092c, type: 3}
+--- !u!114 &-1348677028026741569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f654649a8be3c34b9ba52b50ef7777c, type: 3}
+  m_Name: Set Collocutor
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -264, y: 88}
+  ports:
+    keys:
+    - input
+    - sequel
+    values:
+    - _fieldName: input
+      _node: {fileID: -1348677028026741569}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: sequel
+        node: {fileID: -8442624731111982951}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sequel
+      _node: {fileID: -1348677028026741569}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1658451157978301213}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  sequel: {fileID: 0}
+  _frame: {fileID: 361149651952841386, guid: e7eb393c908f9c64788e0f6d19a5b3c4, type: 3}
+  _collocutorInfo: {fileID: 11400000, guid: 15a082a18db264543b6554b59dc9b217, type: 2}
+  _sprite: {fileID: 21300000, guid: 9b80e45d260514e409d8164da4dc9b79, type: 3}
+--- !u!114 &-1023234289699922027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ad5b9ff1fd81642b788a55e0337e3e, type: 3}
+  m_Name: Frame Action
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1992, y: 40}
+  ports:
+    keys:
+    - input
+    - sequel
+    values:
+    - _fieldName: input
+      _node: {fileID: -1023234289699922027}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: sequel
+        node: {fileID: 6888877982582942220}
+        reroutePoints: []
+      - fieldName: sequel
+        node: {fileID: -5199499371434184619}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sequel
+      _node: {fileID: -1023234289699922027}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  sequel: {fileID: 0}
+  _frameObject: {fileID: 361149651952841386, guid: e7eb393c908f9c64788e0f6d19a5b3c4, type: 3}
+  _doAction: 2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eb9932bc6d77274cb7ca3559ad03eff, type: 3}
+  m_Name: New Dialogue Graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8442624731111982951}
+  - {fileID: -1348677028026741569}
+  - {fileID: 1658451157978301213}
+  - {fileID: 1367159283339194981}
+  - {fileID: -5020757119192562457}
+  - {fileID: -5199499371434184619}
+  - {fileID: 6888877982582942220}
+  - {fileID: -1023234289699922027}
+  currentNodes:
+  - {fileID: -8442624731111982951}
+--- !u!114 &1367159283339194981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47268bbdade9b004ca0877056fb4108d, type: 3}
+  m_Name: Set Answers
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 600, y: 88}
+  ports:
+    keys:
+    - _answers
+    - input
+    - sequel
+    - _answers 0
+    - _answers 1
+    values:
+    - _fieldName: _answers
+      _node: {fileID: 1367159283339194981}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: input
+      _node: {fileID: 1367159283339194981}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: sequel
+        node: {fileID: 1658451157978301213}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sequel
+      _node: {fileID: 1367159283339194981}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: _answers 0
+      _node: {fileID: 1367159283339194981}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5020757119192562457}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: _answers 1
+      _node: {fileID: 1367159283339194981}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5199499371434184619}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  input: {fileID: 0}
+  sequel: {fileID: 0}
+  _frame: {fileID: 5966088466445470702, guid: c259ab3a143413649821c210e55295d0, type: 3}
+  _answers:
+  - Cristin
+  - Martin
+--- !u!114 &1658451157978301213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849c7a2004d08564da052fed7cf865d4, type: 3}
+  m_Name: Set Conversation Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 184, y: 88}
+  ports:
+    keys:
+    - input
+    - sequel
+    values:
+    - _fieldName: input
+      _node: {fileID: 1658451157978301213}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: sequel
+        node: {fileID: -1348677028026741569}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sequel
+      _node: {fileID: 1658451157978301213}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1367159283339194981}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  sequel: {fileID: 0}
+  _textFrame: {fileID: 2340288079762918963, guid: 24ec80b8464168342bde5177ca2a15c8, type: 3}
+  _nameFrame: {fileID: 0}
+  _collocutorInfo: {fileID: 11400000, guid: 15a082a18db264543b6554b59dc9b217, type: 2}
+  _sentences:
+  - Hello, {playerName}!
+  - I will help you to create dialogue system
+  - Who do you want to meet next?
+--- !u!114 &6888877982582942220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 849c7a2004d08564da052fed7cf865d4, type: 3}
+  m_Name: Set Conversation Text
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1544, y: -152}
+  ports:
+    keys:
+    - input
+    - sequel
+    values:
+    - _fieldName: input
+      _node: {fileID: 6888877982582942220}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: sequel
+        node: {fileID: -5020757119192562457}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sequel
+      _node: {fileID: 6888877982582942220}
+      _typeQualifiedName: BaseDialogueNode, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -1023234289699922027}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  sequel: {fileID: 0}
+  _textFrame: {fileID: 7727622291439722513, guid: d7d6ff80c40e9544dbeb8ca3715684c0, type: 3}
+  _nameFrame: {fileID: 4697734406473628718, guid: 4d66436aa14451b419281122c0b98b9a, type: 3}
+  _collocutorInfo: {fileID: 11400000, guid: 5e1d77f1857d9494db66954219858f2c, type: 2}
+  _sentences:
+  - Hello, I'm Cristin!

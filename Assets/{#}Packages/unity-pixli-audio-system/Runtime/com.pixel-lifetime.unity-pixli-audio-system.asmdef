@@ -1,0 +1,16 @@
+{
+    "name": "com.pixel-lifetime.unity-pixli-audio-system",
+    "references": [
+        "com.pixel-lifetime.unity-pixli-miscellaneous",
+        "com.pixel-lifetime.unity-object-pooling-system"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

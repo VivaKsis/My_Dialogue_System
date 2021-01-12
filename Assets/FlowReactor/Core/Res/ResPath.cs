@@ -1,0 +1,1 @@
+﻿// Res Path locator

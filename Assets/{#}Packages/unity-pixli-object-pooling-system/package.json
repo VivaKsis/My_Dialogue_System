@@ -1,0 +1,21 @@
+{
+	"name": "com.pixel-lifetime.unity-pixli-object-pooling-system",
+	"version": "0.1.0",
+	"displayName": "PixLi Object Pooling System",
+	"description": "This is an object pooling system.",
+	"unity": "2020.1",
+	"unityRelease": "2f1",
+	"dependencies": {
+	},
+	"keywords": [
+		"system",
+		"gameplay",
+		"performance"
+	],
+	"author": {
+		"name": "Pixel Lifetime",
+		"email": "pixel.lifetime@gmail.com",
+		"url": "https://github.com/PixelLifetime"
+	},
+	"safe_to_delete_comment": "Read more at https://docs.unity3d.com/Manual/upm-manifestPkg.html"
+}
